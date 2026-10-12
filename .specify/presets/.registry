@@ -2,9 +2,9 @@
   "schema_version": "1.0",
   "presets": {
     "emovere": {
-      "version": "1.0.0",
+      "version": "1.1.0",
       "source": "local",
-      "manifest_hash": "sha256:e3d3c0db1da90009e22e0bf2972c20d0c8f4e563ede2da24e629a3df0364a669",
+      "manifest_hash": "sha256:6c1afa1219d6489afba3a6bc3d03a7c7f98d4076a88429d90ef81f65b5b9ebee",
       "enabled": true,
       "priority": 10,
       "registered_commands": {
@@ -55,7 +55,7 @@
           "speckit-checklist"
         ]
       },
-      "installed_at": "2026-10-12T19:14:59.357565+00:00"
+      "installed_at": "2026-10-12T23:00:04.426795+00:00"
     }
   }
 }
