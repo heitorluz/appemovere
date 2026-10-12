@@ -1,6 +1,6 @@
 ---
 name: speckit-implement
-description: Execute the tasks in tasks.md test-first, with RED to GREEN evidence
+description: Execute the tasks in tasks.md with TDD, with RED → GREEN → REFACTOR evidence
   and without automatic git operations (Emovere preset).
 compatibility: Requires spec-kit project structure with .specify/ directory
 metadata:
@@ -244,9 +244,11 @@ Report final status with summary of completed work.
    reference above to `data-model.md`, `contracts/`, `research.md` and `quickstart.md`; their
    content is in the `## Model`, `## Contract`, `## Decisions` and `## Manual validation`
    sections of `plan.md`.
-4. **Test-first.** In every story, run its test tasks first and show RED — failing for the
-   expected reason — before its implementation tasks; then GREEN. Report the commands and the
-   RED → GREEN evidence in the handoff. The `bootstrap` spec is exempt from RED.
+4. **TDD** (principle VI). In every story, run its test tasks first and show RED — failing for
+   the expected reason — before its implementation tasks; then GREEN with the least code that
+   passes; then REFACTOR with the tests still green, keeping the code within the Clean Code
+   limits of the constitution (Technical Constraints and Stack). Report the commands and the
+   RED → GREEN → REFACTOR evidence in the handoff. The `bootstrap` spec is exempt from RED.
 5. **docs/ in the same branch.** Changes to `docs/` that the feature requires land with the code
    (VIII).
 6. **No git operations.** Never commit, push, merge, rebase, tag or open a PR unless the owner
