@@ -1,0 +1,15 @@
+# Non-functional requirements
+
+> Part of the Emovere product specification. Status: draft. Emovere is a self-knowledge journal that complements, and never replaces, professional care. It is not a medical device.
+
+| Area | Requirement |
+|---|---|
+| Security | Encryption at rest, secrets management, least privilege and a security review before each stage. **The threat model includes physical or coerced access to the phone:** biometric lock, optional app PIN (for people who share their phone passcode), content hidden in the app switcher, quick exit and generic notification text on the lock screen. **The database key does not depend only on biometrics:** changing the device's biometrics does not erase data (SP-26, ADR-028). **Continuity:** two-step verification on every account (stores, Expo, GitHub, domain, email) and a trusted person with instructions and emergency access to take the app down from the stores. |
+| Privacy | Data minimization, explicit purpose, defined retention and no third-party analytics. Encrypted local database (SQLCipher), with the key in Keychain/Keystore, on this device only; delete = erase the key. **Excluded from the system backup:** on Android, automatic backup turned off; on iOS, the database files are excluded from backup, with the attribute reapplied on every launch (SP-25). Health data never goes to iCloud (Apple 5.1.3). Journal fields without keyboard suggestions or keyboard learning, where the system allows it; screenshots controlled in settings; PDF with a warning before sharing, a neutral file name and no metadata. |
+| Platform | iOS and Android app built with Expo/React Native. Offline by default: in Phase 1 everything works without internet and without a server of our own. Distribution in Brazil only in Phase 1. |
+| Reliability | The main risk is losing the device: encrypted export done by the person, with a discreet reminder; the password of the exported file cannot be recovered, and this is explained. Database migrations are tested. Phone restored without the key: the app starts clean, without crashing, and explains why. The app works without AI. |
+| Performance | Opening the app and logging an entry take a few seconds on entry-level Android devices. |
+| Accessibility | WCAG 2.2 AA criteria that apply to apps, VoiceOver and TalkBack, contrast, scalable system font (Dynamic Type), large touch targets, short sentences and reduced motion. |
+| Content | pt-BR, no diagnostic labels, following [Language](02-language.md), with version, authorship and clinical approval. |
+| Auditability | For every insight, the `Pattern`, rule, template or model, and validator result can be retrieved, with no sensitive text in logs. |
+| Operability | Reproducible migrations. **Emergency brake:** a remote configuration that can only turn features off, with a built-in safe default for when there is no internet (SP-24, ADR-024). Over-the-air updates (EAS Update) only when signed; without a signature, updates go only through the stores. Clinical content is reviewed also when it ships through an over-the-air update. Demo build without real data. |

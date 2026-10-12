@@ -1,0 +1,29 @@
+# Real data never enters this repository (ADR-029).
+*.db
+*.db-*
+*.sqlite
+*.sqlite3
+*.sqlite-*
+*.realm
+exports/
+*.emovere-export
+*.enc
+
+# Secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# OS and editors
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Node and Python
+node_modules/
+__pycache__/
+*.pyc
+.venv/
