@@ -3,7 +3,7 @@ schema_version: "1.0"
 preset:
   id: "emovere"
   name: "Emovere"
-  version: "1.0.0"
+  version: "1.1.0"
   description: "Applies the Emovere constitution: one artifact per phase and who decides what (ADR-032)."
   author: "Heitor Luz"
   repository: "https://github.com/heitorluz/appemovere"
