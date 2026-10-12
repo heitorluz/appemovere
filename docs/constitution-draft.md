@@ -1,6 +1,6 @@
 # Emovere App Constitution
 
-> **Draft v0.2.1.** This file becomes `.specify/memory/constitution.md` through `/speckit.constitution` when the app repository is bootstrapped (`001-bootstrap`). Until then it lives here, under `docs/`, for review.
+> **Draft v0.2.2.** This file becomes `.specify/memory/constitution.md` through `/speckit.constitution` when the app repository is bootstrapped (`bootstrap`). Until then it lives here, under `docs/`, for review.
 
 This document defines **how** the Emovere app is built. **What** the product is lives in [`docs/`](README.md): the psychological safety criteria (SP-01 to SP-27), the language table, the ADRs and the feature specs. When this document and `docs/` diverge, the precedence rule in Governance applies.
 
@@ -89,7 +89,7 @@ _Why: it is what makes "pure domain" and the safety criteria observable._
 - MUST: every new screen be checked with VoiceOver, TalkBack and large fonts.
 - MUST NOT: use line coverage as an acceptance criterion; the measure is covered invariants and SP criteria.
 - MUST: in `tasks.md`, test tasks precede implementation tasks for each story.
-- Exception: `001-bootstrap` is exempt from RED as a whole and MUST leave the runners and suites installed.
+- Exception: `bootstrap` is exempt from RED as a whole and MUST leave the runners and suites installed.
 
 **Gate:** test tasks before implementation tasks in `tasks.md`; commits or handoff show RED → GREEN.
 
@@ -168,7 +168,7 @@ _Why: asking the owner what `docs/` already answers spends their attention where
 
 **Gates**
 
-- MUST: before opening a PR, run `pnpm typecheck`, `pnpm lint`, `pnpm format:check`, `pnpm test`, `pnpm architecture:check`, `pnpm constitution:check`, the term linter (IV) and the data-leak checks (II). CI runs the same gates from `001-bootstrap` on.
+- MUST: before opening a PR, run `pnpm typecheck`, `pnpm lint`, `pnpm format:check`, `pnpm test`, `pnpm architecture:check`, `pnpm constitution:check`, the term linter (IV) and the data-leak checks (II). CI runs the same gates from `bootstrap` on.
 - MUST: run `/speckit.analyze` before `/speckit.implement`.
 - MUST: `pnpm constitution:check` also verify that the spec, plan and tasks templates end with the `Decided without asking` section and that no command creates the artifacts removed by **One artifact per phase**.
 - MUST: PR reviews cite principles by ID; a violated MUST blocks.
@@ -229,4 +229,4 @@ A divergence between `docs/` and code is never an acceptable state: it is resolv
 
 **Amendment** — via a dedicated PR, using `/speckit.constitution`, with `pnpm constitution:check` green and the owner's approval; when principles I or IV change, also the clinical owner's.
 
-**Version**: 0.2.1 (draft) | **Ratified**: [TBD — when the repository is created] | **Last Amended**: 2026-10-11
+**Version**: 0.2.2 (draft) | **Ratified**: [TBD — when the repository is created] | **Last Amended**: 2026-10-12

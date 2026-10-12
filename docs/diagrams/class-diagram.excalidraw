@@ -35,7 +35,7 @@
       "strokeWidth": 2,
       "text": "Emovere — domain class diagram (Phase 1, plus what is already planned for Phases 2 and 3)",
       "textAlign": "left",
-      "updated": 1791767301008,
+      "updated": 1791825307221,
       "version": 1,
       "versionNonce": 1437143034,
       "verticalAlign": "top"
@@ -69,7 +69,7 @@
       "strokeColor": "#DDD6CC",
       "strokeStyle": "solid",
       "strokeWidth": 2,
-      "updated": 1791767301009,
+      "updated": 1791825307221,
       "version": 1,
       "versionNonce": 32628595
     },
@@ -105,7 +105,7 @@
       "strokeWidth": 2,
       "text": "Tracking · the person's entries",
       "textAlign": "left",
-      "updated": 1791767301009,
+      "updated": 1791825307221,
       "version": 1,
       "versionNonce": 901039137,
       "verticalAlign": "top"
@@ -139,7 +139,7 @@
       "strokeColor": "#34518A",
       "strokeStyle": "solid",
       "strokeWidth": 2,
-      "updated": 1791767301009,
+      "updated": 1791825307221,
       "version": 1,
       "versionNonce": 1795815518
     },
@@ -175,7 +175,7 @@
       "strokeWidth": 2,
       "text": "«entity»",
       "textAlign": "left",
-      "updated": 1791767301009,
+      "updated": 1791825307221,
       "version": 1,
       "versionNonce": 624981905,
       "verticalAlign": "top"
@@ -212,7 +212,7 @@
       "strokeWidth": 2,
       "text": "CheckIn",
       "textAlign": "left",
-      "updated": 1791767301009,
+      "updated": 1791825307221,
       "version": 1,
       "versionNonce": 2057520740,
       "verticalAlign": "top"
@@ -255,7 +255,7 @@
       "strokeColor": "#34518A",
       "strokeStyle": "solid",
       "strokeWidth": 1,
-      "updated": 1791767301009,
+      "updated": 1791825307221,
       "version": 1,
       "versionNonce": 1536231771
     },
@@ -291,7 +291,7 @@
       "strokeWidth": 2,
       "text": "id: CheckInId\nat: DateTime\nmode: TrackingMode\nmood?: Score\nanxiety?: Score\nenergy?: Score\nemotion?: EmotionChoice\ncontext?: string\nnote?: string\n{LIGHT: the single question only}\n{other modes: at least 1 of the 3 ratings}",
       "textAlign": "left",
-      "updated": 1791767301009,
+      "updated": 1791825307221,
       "version": 1,
       "versionNonce": 2023166731,
       "verticalAlign": "top"
@@ -333,7 +333,7 @@
       "strokeColor": "#645E57",
       "strokeStyle": "solid",
       "strokeWidth": 2,
-      "updated": 1791767301009,
+      "updated": 1791825307221,
       "version": 1,
       "versionNonce": 421078767
     },
@@ -369,7 +369,7 @@
       "strokeWidth": 2,
       "text": "«value object»",
       "textAlign": "left",
-      "updated": 1791767301009,
+      "updated": 1791825307221,
       "version": 1,
       "versionNonce": 499042432,
       "verticalAlign": "top"
@@ -406,7 +406,7 @@
       "strokeWidth": 2,
       "text": "EmotionChoice",
       "textAlign": "left",
-      "updated": 1791767301009,
+      "updated": 1791825307221,
       "version": 1,
       "versionNonce": 222064075,
       "verticalAlign": "top"
@@ -449,7 +449,7 @@
       "strokeColor": "#645E57",
       "strokeStyle": "solid",
       "strokeWidth": 1,
-      "updated": 1791767301009,
+      "updated": 1791825307221,
       "version": 1,
       "versionNonce": 1279951538
     },
@@ -485,7 +485,7 @@
       "strokeWidth": 2,
       "text": "feeling?: CoreFeeling\nwordId?: EmotionWordId\n{exactly one of the two}",
       "textAlign": "left",
-      "updated": 1791767301009,
+      "updated": 1791825307221,
       "version": 1,
       "versionNonce": 1739009744,
       "verticalAlign": "top"
@@ -523,7 +523,7 @@
       "strokeColor": "#34518A",
       "strokeStyle": "solid",
       "strokeWidth": 2,
-      "updated": 1791767301009,
+      "updated": 1791825307221,
       "version": 1,
       "versionNonce": 1888383711
     },
@@ -559,7 +559,7 @@
       "strokeWidth": 2,
       "text": "«entity»",
       "textAlign": "left",
-      "updated": 1791767301009,
+      "updated": 1791825307221,
       "version": 1,
       "versionNonce": 1423978876,
       "verticalAlign": "top"
@@ -596,7 +596,7 @@
       "strokeWidth": 2,
       "text": "ThoughtRecord",
       "textAlign": "left",
-      "updated": 1791767301009,
+      "updated": 1791825307221,
       "version": 1,
       "versionNonce": 671334487,
       "verticalAlign": "top"
@@ -639,7 +639,7 @@
       "strokeColor": "#34518A",
       "strokeStyle": "solid",
       "strokeWidth": 1,
-      "updated": 1791767301009,
+      "updated": 1791825307221,
       "version": 1,
       "versionNonce": 1863417064
     },
@@ -675,7 +675,7 @@
       "strokeWidth": 2,
       "text": "id: ThoughtRecordId\ncreatedAt: DateTime\nsituation?: string\nthought?: string\nemotion?: EmotionChoice\nbehavior?: string\nneed?: NeedId  (Phase 2)\nalternativeResponse?: string  (off by default)\nexcerptSources?: ExcerptSource[]  (Phase 2)",
       "textAlign": "left",
-      "updated": 1791767301009,
+      "updated": 1791825307221,
       "version": 1,
       "versionNonce": 148754400,
       "verticalAlign": "top"
@@ -709,7 +709,7 @@
       "strokeColor": "#B06A28",
       "strokeStyle": "solid",
       "strokeWidth": 2,
-      "updated": 1791767301009,
+      "updated": 1791825307221,
       "version": 1,
       "versionNonce": 633498844
     },
@@ -745,7 +745,7 @@
       "strokeWidth": 2,
       "text": "«versioned catalog»",
       "textAlign": "left",
-      "updated": 1791767301009,
+      "updated": 1791825307221,
       "version": 1,
       "versionNonce": 1473487973,
       "verticalAlign": "top"
@@ -782,7 +782,7 @@
       "strokeWidth": 2,
       "text": "EmotionWord",
       "textAlign": "left",
-      "updated": 1791767301009,
+      "updated": 1791825307221,
       "version": 1,
       "versionNonce": 1306804862,
       "verticalAlign": "top"
@@ -825,7 +825,7 @@
       "strokeColor": "#B06A28",
       "strokeStyle": "solid",
       "strokeWidth": 1,
-      "updated": 1791767301009,
+      "updated": 1791825307221,
       "version": 1,
       "versionNonce": 1107982341
     },
@@ -861,7 +861,7 @@
       "strokeWidth": 2,
       "text": "id: EmotionWordId\nlabel: string  (pt-BR)\nfeeling: CoreFeeling\ncatalogVersion: string",
       "textAlign": "left",
-      "updated": 1791767301009,
+      "updated": 1791825307222,
       "version": 1,
       "versionNonce": 795866849,
       "verticalAlign": "top"
@@ -890,7 +890,7 @@
       "strokeColor": "#645E57",
       "strokeStyle": "solid",
       "strokeWidth": 2,
-      "updated": 1791767301009,
+      "updated": 1791825307222,
       "version": 1,
       "versionNonce": 1364129448
     },
@@ -926,7 +926,7 @@
       "strokeWidth": 2,
       "text": "«enum»",
       "textAlign": "left",
-      "updated": 1791767301009,
+      "updated": 1791825307222,
       "version": 1,
       "versionNonce": 1417728313,
       "verticalAlign": "top"
@@ -963,7 +963,7 @@
       "strokeWidth": 2,
       "text": "CoreFeeling",
       "textAlign": "left",
-      "updated": 1791767301009,
+      "updated": 1791825307222,
       "version": 1,
       "versionNonce": 396370076,
       "verticalAlign": "top"
@@ -1006,7 +1006,7 @@
       "strokeColor": "#645E57",
       "strokeStyle": "solid",
       "strokeWidth": 1,
-      "updated": 1791767301009,
+      "updated": 1791825307222,
       "version": 1,
       "versionNonce": 1340942527
     },
@@ -1042,7 +1042,7 @@
       "strokeWidth": 2,
       "text": "HAPPY  (Feliz)\nSURPRISED  (Surpreso)\nCALM  (Tranquilo)\nSAD  (Triste)\nANGRY  (Bravo)\nAFRAID  (Medo)",
       "textAlign": "left",
-      "updated": 1791767301009,
+      "updated": 1791825307222,
       "version": 1,
       "versionNonce": 424065955,
       "verticalAlign": "top"
@@ -1076,7 +1076,7 @@
       "strokeColor": "#34518A",
       "strokeStyle": "solid",
       "strokeWidth": 2,
-      "updated": 1791767301009,
+      "updated": 1791825307222,
       "version": 1,
       "versionNonce": 1629158574
     },
@@ -1112,7 +1112,7 @@
       "strokeWidth": 2,
       "text": "«entity»",
       "textAlign": "left",
-      "updated": 1791767301009,
+      "updated": 1791825307222,
       "version": 1,
       "versionNonce": 1446266531,
       "verticalAlign": "top"
@@ -1149,7 +1149,7 @@
       "strokeWidth": 2,
       "text": "JournalEntry",
       "textAlign": "left",
-      "updated": 1791767301009,
+      "updated": 1791825307222,
       "version": 1,
       "versionNonce": 676071316,
       "verticalAlign": "top"
@@ -1192,7 +1192,7 @@
       "strokeColor": "#34518A",
       "strokeStyle": "solid",
       "strokeWidth": 1,
-      "updated": 1791767301009,
+      "updated": 1791825307222,
       "version": 1,
       "versionNonce": 25736171
     },
@@ -1228,7 +1228,7 @@
       "strokeWidth": 2,
       "text": "id: JournalEntryId\ncreatedAt: DateTime\ntext: string  (encrypted database only)\nprocessingState: ProcessingState",
       "textAlign": "left",
-      "updated": 1791767301009,
+      "updated": 1791825307222,
       "version": 1,
       "versionNonce": 1768576539,
       "verticalAlign": "top"
@@ -1257,7 +1257,7 @@
       "strokeColor": "#645E57",
       "strokeStyle": "solid",
       "strokeWidth": 2,
-      "updated": 1791767301009,
+      "updated": 1791825307222,
       "version": 1,
       "versionNonce": 179165363
     },
@@ -1293,7 +1293,7 @@
       "strokeWidth": 2,
       "text": "«value object»",
       "textAlign": "left",
-      "updated": 1791767301009,
+      "updated": 1791825307222,
       "version": 1,
       "versionNonce": 931110380,
       "verticalAlign": "top"
@@ -1330,7 +1330,7 @@
       "strokeWidth": 2,
       "text": "Score",
       "textAlign": "left",
-      "updated": 1791767301009,
+      "updated": 1791825307222,
       "version": 1,
       "versionNonce": 561581343,
       "verticalAlign": "top"
@@ -1373,7 +1373,7 @@
       "strokeColor": "#645E57",
       "strokeStyle": "solid",
       "strokeWidth": 1,
-      "updated": 1791767301009,
+      "updated": 1791825307222,
       "version": 1,
       "versionNonce": 1240829448
     },
@@ -1409,7 +1409,7 @@
       "strokeWidth": 2,
       "text": "value: integer  (0 to 10)\nown scale; no PHQ-9 or GAD-7",
       "textAlign": "left",
-      "updated": 1791767301009,
+      "updated": 1791825307222,
       "version": 1,
       "versionNonce": 1299299148,
       "verticalAlign": "top"
@@ -1443,7 +1443,7 @@
       "strokeColor": "#34518A",
       "strokeStyle": "solid",
       "strokeWidth": 2,
-      "updated": 1791767301009,
+      "updated": 1791825307222,
       "version": 1,
       "versionNonce": 2133334656
     },
@@ -1479,7 +1479,7 @@
       "strokeWidth": 2,
       "text": "«entity»",
       "textAlign": "left",
-      "updated": 1791767301009,
+      "updated": 1791825307222,
       "version": 1,
       "versionNonce": 1499743667,
       "verticalAlign": "top"
@@ -1516,7 +1516,7 @@
       "strokeWidth": 2,
       "text": "FactorLog",
       "textAlign": "left",
-      "updated": 1791767301009,
+      "updated": 1791825307222,
       "version": 1,
       "versionNonce": 1928853126,
       "verticalAlign": "top"
@@ -1559,7 +1559,7 @@
       "strokeColor": "#34518A",
       "strokeStyle": "solid",
       "strokeWidth": 1,
-      "updated": 1791767301009,
+      "updated": 1791825307222,
       "version": 1,
       "versionNonce": 1947965305
     },
@@ -1595,7 +1595,7 @@
       "strokeWidth": 2,
       "text": "id: FactorLogId\ndate: LocalDate  {one per date}\nfactors: FactorId[]  (empty = \"nada hoje\")\nsleepHours?: number  (Detailed)\npersonalTags: string[]  (outside the engine)",
       "textAlign": "left",
-      "updated": 1791767301009,
+      "updated": 1791825307222,
       "version": 1,
       "versionNonce": 2131451561,
       "verticalAlign": "top"
@@ -1629,7 +1629,7 @@
       "strokeColor": "#B06A28",
       "strokeStyle": "solid",
       "strokeWidth": 2,
-      "updated": 1791767301009,
+      "updated": 1791825307222,
       "version": 1,
       "versionNonce": 1175153454
     },
@@ -1665,7 +1665,7 @@
       "strokeWidth": 2,
       "text": "«versioned catalog»",
       "textAlign": "left",
-      "updated": 1791767301009,
+      "updated": 1791825307222,
       "version": 1,
       "versionNonce": 1105915317,
       "verticalAlign": "top"
@@ -1702,7 +1702,7 @@
       "strokeWidth": 2,
       "text": "Factor",
       "textAlign": "left",
-      "updated": 1791767301009,
+      "updated": 1791825307222,
       "version": 1,
       "versionNonce": 1803721520,
       "verticalAlign": "top"
@@ -1745,7 +1745,7 @@
       "strokeColor": "#B06A28",
       "strokeStyle": "solid",
       "strokeWidth": 1,
-      "updated": 1791767301009,
+      "updated": 1791825307222,
       "version": 1,
       "versionNonce": 1816781971
     },
@@ -1781,7 +1781,7 @@
       "strokeWidth": 2,
       "text": "id: FactorId\nlabel: string\ncategory: FactorCategory\nmeasure: TAP | SLEEP_HOURS\nthreshold?: Threshold  (SLEEP_HOURS only)\ncatalogVersion: string\n{never medication, food/weight\n or substances (SP-20)}",
       "textAlign": "left",
-      "updated": 1791767301009,
+      "updated": 1791825307222,
       "version": 1,
       "versionNonce": 297101807,
       "verticalAlign": "top"
@@ -1815,7 +1815,7 @@
       "strokeColor": "#34518A",
       "strokeStyle": "solid",
       "strokeWidth": 2,
-      "updated": 1791767301009,
+      "updated": 1791825307222,
       "version": 1,
       "versionNonce": 1640126581
     },
@@ -1851,7 +1851,7 @@
       "strokeWidth": 2,
       "text": "«projection · Tracking API»",
       "textAlign": "left",
-      "updated": 1791767301009,
+      "updated": 1791825307222,
       "version": 1,
       "versionNonce": 1173300344,
       "verticalAlign": "top"
@@ -1888,7 +1888,7 @@
       "strokeWidth": 2,
       "text": "DailyOutcomes",
       "textAlign": "left",
-      "updated": 1791767301009,
+      "updated": 1791825307222,
       "version": 1,
       "versionNonce": 1255146299,
       "verticalAlign": "top"
@@ -1931,7 +1931,7 @@
       "strokeColor": "#34518A",
       "strokeStyle": "solid",
       "strokeWidth": 1,
-      "updated": 1791767301009,
+      "updated": 1791825307222,
       "version": 1,
       "versionNonce": 1970599646
     },
@@ -1967,7 +1967,7 @@
       "strokeWidth": 2,
       "text": "date: LocalDate\nmood?: number\nanxiety?: number\nenergy?: number\n(no note, emotion or context)",
       "textAlign": "left",
-      "updated": 1791767301009,
+      "updated": 1791825307222,
       "version": 1,
       "versionNonce": 1353991516,
       "verticalAlign": "top"
@@ -2001,7 +2001,7 @@
       "strokeColor": "#34518A",
       "strokeStyle": "solid",
       "strokeWidth": 2,
-      "updated": 1791767301009,
+      "updated": 1791825307222,
       "version": 1,
       "versionNonce": 340063270
     },
@@ -2037,7 +2037,7 @@
       "strokeWidth": 2,
       "text": "«projection · Tracking API»",
       "textAlign": "left",
-      "updated": 1791767301009,
+      "updated": 1791825307222,
       "version": 1,
       "versionNonce": 988143837,
       "verticalAlign": "top"
@@ -2074,7 +2074,7 @@
       "strokeWidth": 2,
       "text": "DailyFactors",
       "textAlign": "left",
-      "updated": 1791767301009,
+      "updated": 1791825307222,
       "version": 1,
       "versionNonce": 651248822,
       "verticalAlign": "top"
@@ -2117,7 +2117,7 @@
       "strokeColor": "#34518A",
       "strokeStyle": "solid",
       "strokeWidth": 1,
-      "updated": 1791767301009,
+      "updated": 1791825307222,
       "version": 1,
       "versionNonce": 1686649981
     },
@@ -2153,7 +2153,7 @@
       "strokeWidth": 2,
       "text": "date: LocalDate  (only days with a FactorLog)\nfactors: FactorId[]\nsleepHours?: number\n(no personalTags)",
       "textAlign": "left",
-      "updated": 1791767301009,
+      "updated": 1791825307222,
       "version": 1,
       "versionNonce": 1230412473,
       "verticalAlign": "top"
@@ -2213,7 +2213,7 @@
       "strokeColor": "#2A2724",
       "strokeStyle": "solid",
       "strokeWidth": 1.5,
-      "updated": 1791767301009,
+      "updated": 1791825307222,
       "version": 1,
       "versionNonce": 1272135048
     },
@@ -2272,7 +2272,7 @@
       "strokeColor": "#2A2724",
       "strokeStyle": "solid",
       "strokeWidth": 1.5,
-      "updated": 1791767301009,
+      "updated": 1791825307222,
       "version": 1,
       "versionNonce": 900898850
     },
@@ -2331,7 +2331,7 @@
       "strokeColor": "#2A2724",
       "strokeStyle": "solid",
       "strokeWidth": 1.5,
-      "updated": 1791767301009,
+      "updated": 1791825307222,
       "version": 1,
       "versionNonce": 728310972
     },
@@ -2390,7 +2390,7 @@
       "strokeColor": "#2A2724",
       "strokeStyle": "solid",
       "strokeWidth": 1.5,
-      "updated": 1791767301009,
+      "updated": 1791825307222,
       "version": 1,
       "versionNonce": 1668898221
     },
@@ -2444,7 +2444,7 @@
       "strokeColor": "#645E57",
       "strokeStyle": "dashed",
       "strokeWidth": 1.5,
-      "updated": 1791767301009,
+      "updated": 1791825307222,
       "version": 1,
       "versionNonce": 1584681858
     },
@@ -2480,7 +2480,7 @@
       "strokeWidth": 2,
       "text": "excerpts (Phase 2)",
       "textAlign": "left",
-      "updated": 1791767301009,
+      "updated": 1791825307222,
       "version": 1,
       "versionNonce": 1992022910,
       "verticalAlign": "top"
@@ -2517,7 +2517,7 @@
       "strokeWidth": 2,
       "text": "Skipping or missing never counts as \"missed\" or worse (SP-02).\nNote, emotion and context apply in every mode.\nEmotionChoice: the feeling only, or a word that\nalready carries its CoreFeeling (the word is optional).\nThe engine only receives DailyOutcomes and DailyFactors:\nnotes, emotions and personalTags never enter (SP-20).\nA day without a FactorLog is left out of the comparison;\nan empty FactorLog (\"nada hoje\") counts as \"without\".",
       "textAlign": "left",
-      "updated": 1791767301009,
+      "updated": 1791825307222,
       "version": 1,
       "versionNonce": 1691097781,
       "verticalAlign": "top"
@@ -2546,7 +2546,7 @@
       "strokeColor": "#DDD6CC",
       "strokeStyle": "solid",
       "strokeWidth": 2,
-      "updated": 1791767301009,
+      "updated": 1791825307222,
       "version": 1,
       "versionNonce": 764635220
     },
@@ -2582,7 +2582,7 @@
       "strokeWidth": 2,
       "text": "Insights · the code calculates, AI only writes (ADR-011)",
       "textAlign": "left",
-      "updated": 1791767301009,
+      "updated": 1791825307222,
       "version": 1,
       "versionNonce": 346511152,
       "verticalAlign": "top"
@@ -2616,7 +2616,7 @@
       "strokeColor": "#34518A",
       "strokeStyle": "solid",
       "strokeWidth": 2,
-      "updated": 1791767301009,
+      "updated": 1791825307222,
       "version": 1,
       "versionNonce": 1830680271
     },
@@ -2652,7 +2652,7 @@
       "strokeWidth": 2,
       "text": "«entity»",
       "textAlign": "left",
-      "updated": 1791767301009,
+      "updated": 1791825307222,
       "version": 1,
       "versionNonce": 1415460190,
       "verticalAlign": "top"
@@ -2689,7 +2689,7 @@
       "strokeWidth": 2,
       "text": "InsightEvaluation",
       "textAlign": "left",
-      "updated": 1791767301009,
+      "updated": 1791825307223,
       "version": 1,
       "versionNonce": 708130601,
       "verticalAlign": "top"
@@ -2732,7 +2732,7 @@
       "strokeColor": "#34518A",
       "strokeStyle": "solid",
       "strokeWidth": 1,
-      "updated": 1791767301009,
+      "updated": 1791825307223,
       "version": 1,
       "versionNonce": 271875730
     },
@@ -2768,7 +2768,7 @@
       "strokeWidth": 2,
       "text": "id: EvaluationId\nevaluatedAt: LocalDate\nruleVersion: string\nnoInsight?: NoInsight\ncards: InsightCardId[]  (0 to 2)\n{every 28 days; the first on day 56}\n{with noInsight, no cards}",
       "textAlign": "left",
-      "updated": 1791767301009,
+      "updated": 1791825307223,
       "version": 1,
       "versionNonce": 2101525808,
       "verticalAlign": "top"
@@ -2802,7 +2802,7 @@
       "strokeColor": "#2A2724",
       "strokeStyle": "solid",
       "strokeWidth": 2,
-      "updated": 1791767301009,
+      "updated": 1791825307223,
       "version": 1,
       "versionNonce": 426359520
     },
@@ -2838,7 +2838,7 @@
       "strokeWidth": 2,
       "text": "«domain service»",
       "textAlign": "left",
-      "updated": 1791767301009,
+      "updated": 1791825307223,
       "version": 1,
       "versionNonce": 2042245503,
       "verticalAlign": "top"
@@ -2875,7 +2875,7 @@
       "strokeWidth": 2,
       "text": "InsightSelector",
       "textAlign": "left",
-      "updated": 1791767301009,
+      "updated": 1791825307223,
       "version": 1,
       "versionNonce": 19526754,
       "verticalAlign": "top"
@@ -2918,7 +2918,7 @@
       "strokeColor": "#2A2724",
       "strokeStyle": "solid",
       "strokeWidth": 1,
-      "updated": 1791767301009,
+      "updated": 1791825307223,
       "version": 1,
       "versionNonce": 476599401
     },
@@ -2954,7 +2954,7 @@
       "strokeWidth": 2,
       "text": "+ select(candidates, previousCards, day)\n    : at most 2 candidates\nkey = factor × outcome\nno repeat for 56 days (SP-08)\na pair not yet shown first,\nthen the largest difference",
       "textAlign": "left",
-      "updated": 1791767301009,
+      "updated": 1791825307223,
       "version": 1,
       "versionNonce": 1282070445,
       "verticalAlign": "top"
@@ -3012,7 +3012,7 @@
       "strokeColor": "#34518A",
       "strokeStyle": "solid",
       "strokeWidth": 2,
-      "updated": 1791767301009,
+      "updated": 1791825307223,
       "version": 1,
       "versionNonce": 452188315
     },
@@ -3048,7 +3048,7 @@
       "strokeWidth": 2,
       "text": "«entity»",
       "textAlign": "left",
-      "updated": 1791767301009,
+      "updated": 1791825307223,
       "version": 1,
       "versionNonce": 1170776386,
       "verticalAlign": "top"
@@ -3085,7 +3085,7 @@
       "strokeWidth": 2,
       "text": "InsightCard",
       "textAlign": "left",
-      "updated": 1791767301009,
+      "updated": 1791825307223,
       "version": 1,
       "versionNonce": 1814893111,
       "verticalAlign": "top"
@@ -3128,7 +3128,7 @@
       "strokeColor": "#34518A",
       "strokeStyle": "solid",
       "strokeWidth": 1,
-      "updated": 1791767301009,
+      "updated": 1791825307223,
       "version": 1,
       "versionNonce": 1408460126
     },
@@ -3164,7 +3164,7 @@
       "strokeWidth": 2,
       "text": "id: InsightCardId\ncreatedAt: DateTime\npattern: Pattern\nevidence: PatternEvidence\ntext: string\nsource: TemplateVersion | ModelVersion\nvalidation: ValidationResult\nstate: InsightState\nshownAt?: DateTime  (held while paused or hidden)\ndecidedAt?: DateTime\ncanReappearAfter?: Date  (decidedAt + 56 days)\n+ takeToSession(agenda): changes the state and\n    adds the agenda item in one step",
       "textAlign": "left",
-      "updated": 1791767301009,
+      "updated": 1791825307223,
       "version": 1,
       "versionNonce": 1794170340,
       "verticalAlign": "top"
@@ -3198,7 +3198,7 @@
       "strokeColor": "#2A2724",
       "strokeStyle": "solid",
       "strokeWidth": 2,
-      "updated": 1791767301009,
+      "updated": 1791825307223,
       "version": 1,
       "versionNonce": 1348212968
     },
@@ -3234,7 +3234,7 @@
       "strokeWidth": 2,
       "text": "«domain service»",
       "textAlign": "left",
-      "updated": 1791767301009,
+      "updated": 1791825307223,
       "version": 1,
       "versionNonce": 239414507,
       "verticalAlign": "top"
@@ -3271,7 +3271,7 @@
       "strokeWidth": 2,
       "text": "TextValidator",
       "textAlign": "left",
-      "updated": 1791767301009,
+      "updated": 1791825307223,
       "version": 1,
       "versionNonce": 1652978140,
       "verticalAlign": "top"
@@ -3314,7 +3314,7 @@
       "strokeColor": "#2A2724",
       "strokeStyle": "solid",
       "strokeWidth": 1,
-      "updated": 1791767301009,
+      "updated": 1791825307223,
       "version": 1,
       "versionNonce": 999439377
     },
@@ -3350,7 +3350,7 @@
       "strokeWidth": 2,
       "text": "+ validate(text, pattern)\n    : ValidationResult\nnumbers · vocabulary ·\nlength · language",
       "textAlign": "left",
-      "updated": 1791767301009,
+      "updated": 1791825307223,
       "version": 1,
       "versionNonce": 132040579,
       "verticalAlign": "top"
@@ -3384,7 +3384,7 @@
       "strokeColor": "#B06A28",
       "strokeStyle": "solid",
       "strokeWidth": 2,
-      "updated": 1791767301009,
+      "updated": 1791825307223,
       "version": 1,
       "versionNonce": 204010103
     },
@@ -3420,7 +3420,7 @@
       "strokeWidth": 2,
       "text": "«versioned catalog»",
       "textAlign": "left",
-      "updated": 1791767301009,
+      "updated": 1791825307223,
       "version": 1,
       "versionNonce": 437452248,
       "verticalAlign": "top"
@@ -3457,7 +3457,7 @@
       "strokeWidth": 2,
       "text": "InsightTemplate",
       "textAlign": "left",
-      "updated": 1791767301009,
+      "updated": 1791825307223,
       "version": 1,
       "versionNonce": 751323235,
       "verticalAlign": "top"
@@ -3500,7 +3500,7 @@
       "strokeColor": "#B06A28",
       "strokeStyle": "solid",
       "strokeWidth": 1,
-      "updated": 1791767301009,
+      "updated": 1791825307223,
       "version": 1,
       "versionNonce": 307679788
     },
@@ -3536,7 +3536,7 @@
       "strokeWidth": 2,
       "text": "version: string\ntext: string",
       "textAlign": "left",
-      "updated": 1791767301009,
+      "updated": 1791825307223,
       "version": 1,
       "versionNonce": 1191379016,
       "verticalAlign": "top"
@@ -3565,7 +3565,7 @@
       "strokeColor": "#645E57",
       "strokeStyle": "solid",
       "strokeWidth": 2,
-      "updated": 1791767301009,
+      "updated": 1791825307223,
       "version": 1,
       "versionNonce": 1039507038
     },
@@ -3601,7 +3601,7 @@
       "strokeWidth": 2,
       "text": "«enum»",
       "textAlign": "left",
-      "updated": 1791767301009,
+      "updated": 1791825307223,
       "version": 1,
       "versionNonce": 750812563,
       "verticalAlign": "top"
@@ -3638,7 +3638,7 @@
       "strokeWidth": 2,
       "text": "InsightState",
       "textAlign": "left",
-      "updated": 1791767301009,
+      "updated": 1791825307223,
       "version": 1,
       "versionNonce": 1227667558,
       "verticalAlign": "top"
@@ -3681,7 +3681,7 @@
       "strokeColor": "#645E57",
       "strokeStyle": "solid",
       "strokeWidth": 1,
-      "updated": 1791767301009,
+      "updated": 1791825307223,
       "version": 1,
       "versionNonce": 1662062425
     },
@@ -3717,7 +3717,7 @@
       "strokeWidth": 2,
       "text": "NEW\nTAKEN_TO_SESSION\nCONTESTED\nSILENCED",
       "textAlign": "left",
-      "updated": 1791767301009,
+      "updated": 1791825307223,
       "version": 1,
       "versionNonce": 452299019,
       "verticalAlign": "top"
@@ -3755,7 +3755,7 @@
       "strokeColor": "#645E57",
       "strokeStyle": "dashed",
       "strokeWidth": 2,
-      "updated": 1791767301009,
+      "updated": 1791825307223,
       "version": 1,
       "versionNonce": 1119525139
     },
@@ -3791,7 +3791,7 @@
       "strokeWidth": 2,
       "text": "«port · Phase 2»",
       "textAlign": "left",
-      "updated": 1791767301009,
+      "updated": 1791825307223,
       "version": 1,
       "versionNonce": 1330852556,
       "verticalAlign": "top"
@@ -3828,7 +3828,7 @@
       "strokeWidth": 2,
       "text": "LLMProvider",
       "textAlign": "left",
-      "updated": 1791767301009,
+      "updated": 1791825307223,
       "version": 1,
       "versionNonce": 450209279,
       "verticalAlign": "top"
@@ -3871,7 +3871,7 @@
       "strokeColor": "#645E57",
       "strokeStyle": "dashed",
       "strokeWidth": 1,
-      "updated": 1791767301009,
+      "updated": 1791825307223,
       "version": 1,
       "versionNonce": 998152550
     },
@@ -3907,7 +3907,7 @@
       "strokeWidth": 2,
       "text": "+ draft(pattern: Pattern): Draft\n+ extractExcerpts(text): Excerpt[]\n+ draftReport(facts, excerpts): Draft\nreceives the Pattern without the days\nadapters: on-device · server",
       "textAlign": "left",
-      "updated": 1791767301009,
+      "updated": 1791825307223,
       "version": 1,
       "versionNonce": 1515950762,
       "verticalAlign": "top"
@@ -3936,7 +3936,7 @@
       "strokeColor": "#645E57",
       "strokeStyle": "solid",
       "strokeWidth": 2,
-      "updated": 1791767301009,
+      "updated": 1791825307223,
       "version": 1,
       "versionNonce": 976517469
     },
@@ -3972,7 +3972,7 @@
       "strokeWidth": 2,
       "text": "«enum»",
       "textAlign": "left",
-      "updated": 1791767301009,
+      "updated": 1791825307223,
       "version": 1,
       "versionNonce": 1434359408,
       "verticalAlign": "top"
@@ -4009,7 +4009,7 @@
       "strokeWidth": 2,
       "text": "Outcome",
       "textAlign": "left",
-      "updated": 1791767301009,
+      "updated": 1791825307223,
       "version": 1,
       "versionNonce": 1620956627,
       "verticalAlign": "top"
@@ -4052,7 +4052,7 @@
       "strokeColor": "#645E57",
       "strokeStyle": "solid",
       "strokeWidth": 1,
-      "updated": 1791767301009,
+      "updated": 1791825307223,
       "version": 1,
       "versionNonce": 1247325046
     },
@@ -4088,7 +4088,7 @@
       "strokeWidth": 2,
       "text": "MOOD\nANXIETY\nENERGY",
       "textAlign": "left",
-      "updated": 1791767301009,
+      "updated": 1791825307223,
       "version": 1,
       "versionNonce": 565168246,
       "verticalAlign": "top"
@@ -4122,7 +4122,7 @@
       "strokeColor": "#645E57",
       "strokeStyle": "solid",
       "strokeWidth": 2,
-      "updated": 1791767301009,
+      "updated": 1791825307223,
       "version": 1,
       "versionNonce": 105104972
     },
@@ -4158,7 +4158,7 @@
       "strokeWidth": 2,
       "text": "«value object · device only»",
       "textAlign": "left",
-      "updated": 1791767301009,
+      "updated": 1791825307223,
       "version": 1,
       "versionNonce": 206376359,
       "verticalAlign": "top"
@@ -4195,7 +4195,7 @@
       "strokeWidth": 2,
       "text": "PatternEvidence",
       "textAlign": "left",
-      "updated": 1791767301009,
+      "updated": 1791825307223,
       "version": 1,
       "versionNonce": 921351858,
       "verticalAlign": "top"
@@ -4238,7 +4238,7 @@
       "strokeColor": "#645E57",
       "strokeStyle": "solid",
       "strokeWidth": 1,
-      "updated": 1791767301009,
+      "updated": 1791825307223,
       "version": 1,
       "versionNonce": 444826549
     },
@@ -4274,7 +4274,7 @@
       "strokeWidth": 2,
       "text": "daysWith: LocalDate[]\ndaysWithout: LocalDate[]\n{Pattern n = number of days}\n(never sent to a server)",
       "textAlign": "left",
-      "updated": 1791767301009,
+      "updated": 1791825307223,
       "version": 1,
       "versionNonce": 121894669,
       "verticalAlign": "top"
@@ -4316,7 +4316,7 @@
       "strokeColor": "#645E57",
       "strokeStyle": "solid",
       "strokeWidth": 2,
-      "updated": 1791767301009,
+      "updated": 1791825307223,
       "version": 1,
       "versionNonce": 1655300519
     },
@@ -4352,7 +4352,7 @@
       "strokeWidth": 2,
       "text": "«value object»",
       "textAlign": "left",
-      "updated": 1791767301009,
+      "updated": 1791825307223,
       "version": 1,
       "versionNonce": 2063428678,
       "verticalAlign": "top"
@@ -4389,7 +4389,7 @@
       "strokeWidth": 2,
       "text": "Pattern",
       "textAlign": "left",
-      "updated": 1791767301009,
+      "updated": 1791825307223,
       "version": 1,
       "versionNonce": 620827569,
       "verticalAlign": "top"
@@ -4432,7 +4432,7 @@
       "strokeColor": "#645E57",
       "strokeStyle": "solid",
       "strokeWidth": 1,
-      "updated": 1791767301009,
+      "updated": 1791825307223,
       "version": 1,
       "versionNonce": 748177692
     },
@@ -4468,7 +4468,7 @@
       "strokeWidth": 2,
       "text": "factor: FactorId\noutcome: Outcome\nperiod: DateRange  (8 weeks)\nwindows: PatternWindow[2]\nweekendShareWith: number\nweekendShareWithout: number\nruleVersion: string\nfactorCatalogVersion: string\n{no group with n below the minimum}",
       "textAlign": "left",
-      "updated": 1791767301009,
+      "updated": 1791825307223,
       "version": 1,
       "versionNonce": 1438184566,
       "verticalAlign": "top"
@@ -4502,7 +4502,7 @@
       "strokeColor": "#645E57",
       "strokeStyle": "solid",
       "strokeWidth": 2,
-      "updated": 1791767301009,
+      "updated": 1791825307223,
       "version": 1,
       "versionNonce": 394143893
     },
@@ -4538,7 +4538,7 @@
       "strokeWidth": 2,
       "text": "«value object»",
       "textAlign": "left",
-      "updated": 1791767301009,
+      "updated": 1791825307223,
       "version": 1,
       "versionNonce": 1741278582,
       "verticalAlign": "top"
@@ -4575,7 +4575,7 @@
       "strokeWidth": 2,
       "text": "PatternWindow",
       "textAlign": "left",
-      "updated": 1791767301010,
+      "updated": 1791825307223,
       "version": 1,
       "versionNonce": 799038723,
       "verticalAlign": "top"
@@ -4618,7 +4618,7 @@
       "strokeColor": "#645E57",
       "strokeStyle": "solid",
       "strokeWidth": 1,
-      "updated": 1791767301010,
+      "updated": 1791825307223,
       "version": 1,
       "versionNonce": 148018250
     },
@@ -4654,7 +4654,7 @@
       "strokeWidth": 2,
       "text": "range: DateRange\nnWith: number\nnWithout: number\nmeanWith: number\nmeanWithout: number",
       "textAlign": "left",
-      "updated": 1791767301010,
+      "updated": 1791825307223,
       "version": 1,
       "versionNonce": 1402521318,
       "verticalAlign": "top"
@@ -4708,7 +4708,7 @@
       "strokeColor": "#2A2724",
       "strokeStyle": "solid",
       "strokeWidth": 2,
-      "updated": 1791767301010,
+      "updated": 1791825307223,
       "version": 1,
       "versionNonce": 1086227249
     },
@@ -4744,7 +4744,7 @@
       "strokeWidth": 2,
       "text": "«domain service»",
       "textAlign": "left",
-      "updated": 1791767301010,
+      "updated": 1791825307223,
       "version": 1,
       "versionNonce": 915435626,
       "verticalAlign": "top"
@@ -4781,7 +4781,7 @@
       "strokeWidth": 2,
       "text": "InsightEngine",
       "textAlign": "left",
-      "updated": 1791767301010,
+      "updated": 1791825307223,
       "version": 1,
       "versionNonce": 687107229,
       "verticalAlign": "top"
@@ -4824,7 +4824,7 @@
       "strokeColor": "#2A2724",
       "strokeStyle": "solid",
       "strokeWidth": 1,
-      "updated": 1791767301010,
+      "updated": 1791825307223,
       "version": 1,
       "versionNonce": 1225154694
     },
@@ -4860,7 +4860,7 @@
       "strokeWidth": 2,
       "text": "rule: InsightRule\n+ evaluate(outcomes: DailyOutcomes[],\n    factors: DailyFactors[], pairs: TestedPair[],\n    safetyNetHit: boolean, day: LocalDate)\n    : (Pattern, PatternEvidence)[] | NoInsight",
       "textAlign": "left",
-      "updated": 1791767301010,
+      "updated": 1791825307223,
       "version": 1,
       "versionNonce": 346624460,
       "verticalAlign": "top"
@@ -4894,7 +4894,7 @@
       "strokeColor": "#B06A28",
       "strokeStyle": "solid",
       "strokeWidth": 2,
-      "updated": 1791767301010,
+      "updated": 1791825307223,
       "version": 1,
       "versionNonce": 2022762596
     },
@@ -4930,7 +4930,7 @@
       "strokeWidth": 2,
       "text": "«versioned catalog»",
       "textAlign": "left",
-      "updated": 1791767301010,
+      "updated": 1791825307223,
       "version": 1,
       "versionNonce": 832198733,
       "verticalAlign": "top"
@@ -4967,7 +4967,7 @@
       "strokeWidth": 2,
       "text": "TestedPair",
       "textAlign": "left",
-      "updated": 1791767301010,
+      "updated": 1791825307223,
       "version": 1,
       "versionNonce": 1505694072,
       "verticalAlign": "top"
@@ -5010,7 +5010,7 @@
       "strokeColor": "#B06A28",
       "strokeStyle": "solid",
       "strokeWidth": 1,
-      "updated": 1791767301010,
+      "updated": 1791825307223,
       "version": 1,
       "versionNonce": 1737224637
     },
@@ -5046,7 +5046,7 @@
       "strokeWidth": 2,
       "text": "factor: FactorId\noutcome: Outcome\ncatalogVersion: string\n{at most 4 pairs (ADR-023)}",
       "textAlign": "left",
-      "updated": 1791767301010,
+      "updated": 1791825307223,
       "version": 1,
       "versionNonce": 640815063,
       "verticalAlign": "top"
@@ -5080,7 +5080,7 @@
       "strokeColor": "#645E57",
       "strokeStyle": "solid",
       "strokeWidth": 2,
-      "updated": 1791767301010,
+      "updated": 1791825307223,
       "version": 1,
       "versionNonce": 778438897
     },
@@ -5116,7 +5116,7 @@
       "strokeWidth": 2,
       "text": "«value object»",
       "textAlign": "left",
-      "updated": 1791767301010,
+      "updated": 1791825307223,
       "version": 1,
       "versionNonce": 1488537258,
       "verticalAlign": "top"
@@ -5153,7 +5153,7 @@
       "strokeWidth": 2,
       "text": "InsightRule",
       "textAlign": "left",
-      "updated": 1791767301010,
+      "updated": 1791825307223,
       "version": 1,
       "versionNonce": 1017584095,
       "verticalAlign": "top"
@@ -5196,7 +5196,7 @@
       "strokeColor": "#645E57",
       "strokeStyle": "solid",
       "strokeWidth": 1,
-      "updated": 1791767301010,
+      "updated": 1791825307223,
       "version": 1,
       "versionNonce": 1317486534
     },
@@ -5232,7 +5232,7 @@
       "strokeWidth": 2,
       "text": "version: string\nwindows = 2 × 28 days\nminDaysPerGroup = 6\nminDifference = 1.5\nfactorPresence = 25% to 75%\nmaxPairs = 4\nmaxInsightsPerEvaluation = 2\nevaluationEveryDays = 28\nfirstEvaluationDay = 56  (day 1 = first check-in)\ncooldownDays = 56",
       "textAlign": "left",
-      "updated": 1791767301010,
+      "updated": 1791825307223,
       "version": 1,
       "versionNonce": 494611724,
       "verticalAlign": "top"
@@ -5266,7 +5266,7 @@
       "strokeColor": "#645E57",
       "strokeStyle": "solid",
       "strokeWidth": 2,
-      "updated": 1791767301010,
+      "updated": 1791825307223,
       "version": 1,
       "versionNonce": 1298836772
     },
@@ -5302,7 +5302,7 @@
       "strokeWidth": 2,
       "text": "«value object»",
       "textAlign": "left",
-      "updated": 1791767301010,
+      "updated": 1791825307224,
       "version": 1,
       "versionNonce": 451815899,
       "verticalAlign": "top"
@@ -5339,7 +5339,7 @@
       "strokeWidth": 2,
       "text": "NoInsight",
       "textAlign": "left",
-      "updated": 1791767301010,
+      "updated": 1791825307224,
       "version": 1,
       "versionNonce": 1406939062,
       "verticalAlign": "top"
@@ -5382,7 +5382,7 @@
       "strokeColor": "#645E57",
       "strokeStyle": "solid",
       "strokeWidth": 1,
-      "updated": 1791767301010,
+      "updated": 1791825307224,
       "version": 1,
       "versionNonce": 1150322043
     },
@@ -5418,7 +5418,7 @@
       "strokeWidth": 2,
       "text": "reason: NOT_ENOUGH_DATA | SAFETY_NET\n(SAFETY_NET: offers the help screen)",
       "textAlign": "left",
-      "updated": 1791767301010,
+      "updated": 1791825307224,
       "version": 1,
       "versionNonce": 830901177,
       "verticalAlign": "top"
@@ -5456,7 +5456,7 @@
       "strokeColor": "#34518A",
       "strokeStyle": "solid",
       "strokeWidth": 2,
-      "updated": 1791767301010,
+      "updated": 1791825307224,
       "version": 1,
       "versionNonce": 386803391
     },
@@ -5492,7 +5492,7 @@
       "strokeWidth": 2,
       "text": "«entity»",
       "textAlign": "left",
-      "updated": 1791767301010,
+      "updated": 1791825307224,
       "version": 1,
       "versionNonce": 1408258140,
       "verticalAlign": "top"
@@ -5529,7 +5529,7 @@
       "strokeWidth": 2,
       "text": "SessionAgenda",
       "textAlign": "left",
-      "updated": 1791767301010,
+      "updated": 1791825307224,
       "version": 1,
       "versionNonce": 26639159,
       "verticalAlign": "top"
@@ -5572,7 +5572,7 @@
       "strokeColor": "#34518A",
       "strokeStyle": "solid",
       "strokeWidth": 1,
-      "updated": 1791767301010,
+      "updated": 1791825307224,
       "version": 1,
       "versionNonce": 1655621322
     },
@@ -5608,7 +5608,7 @@
       "strokeWidth": 2,
       "text": "id: AgendaId\nitems: AgendaItem[]\n+ add(item: AgendaItem)",
       "textAlign": "left",
-      "updated": 1791767301010,
+      "updated": 1791825307224,
       "version": 1,
       "versionNonce": 898424896,
       "verticalAlign": "top"
@@ -5650,7 +5650,7 @@
       "strokeColor": "#645E57",
       "strokeStyle": "solid",
       "strokeWidth": 2,
-      "updated": 1791767301010,
+      "updated": 1791825307224,
       "version": 1,
       "versionNonce": 565036894
     },
@@ -5686,7 +5686,7 @@
       "strokeWidth": 2,
       "text": "«value object»",
       "textAlign": "left",
-      "updated": 1791767301010,
+      "updated": 1791825307224,
       "version": 1,
       "versionNonce": 196749029,
       "verticalAlign": "top"
@@ -5723,7 +5723,7 @@
       "strokeWidth": 2,
       "text": "AgendaItem",
       "textAlign": "left",
-      "updated": 1791767301010,
+      "updated": 1791825307224,
       "version": 1,
       "versionNonce": 29602302,
       "verticalAlign": "top"
@@ -5766,7 +5766,7 @@
       "strokeColor": "#645E57",
       "strokeStyle": "solid",
       "strokeWidth": 1,
-      "updated": 1791767301010,
+      "updated": 1791825307224,
       "version": 1,
       "versionNonce": 1978727043
     },
@@ -5802,7 +5802,7 @@
       "strokeWidth": 2,
       "text": "entry?: EntryRef\nnote?: string  (topic or annotation)\naddedAt: DateTime\n{entry or note: at least one}",
       "textAlign": "left",
-      "updated": 1791767301010,
+      "updated": 1791825307224,
       "version": 1,
       "versionNonce": 1479310687,
       "verticalAlign": "top"
@@ -5840,7 +5840,7 @@
       "strokeColor": "#645E57",
       "strokeStyle": "solid",
       "strokeWidth": 2,
-      "updated": 1791767301010,
+      "updated": 1791825307224,
       "version": 1,
       "versionNonce": 319560069
     },
@@ -5876,7 +5876,7 @@
       "strokeWidth": 2,
       "text": "«generated on demand · file only»",
       "textAlign": "left",
-      "updated": 1791767301010,
+      "updated": 1791825307224,
       "version": 1,
       "versionNonce": 1228606758,
       "verticalAlign": "top"
@@ -5913,7 +5913,7 @@
       "strokeWidth": 2,
       "text": "SessionReport",
       "textAlign": "left",
-      "updated": 1791767301010,
+      "updated": 1791825307224,
       "version": 1,
       "versionNonce": 1830990867,
       "verticalAlign": "top"
@@ -5956,7 +5956,7 @@
       "strokeColor": "#645E57",
       "strokeStyle": "solid",
       "strokeWidth": 1,
-      "updated": 1791767301010,
+      "updated": 1791825307224,
       "version": 1,
       "versionNonce": 582778748
     },
@@ -5992,7 +5992,7 @@
       "strokeWidth": 2,
       "text": "period: DateRange  (by entry date)\nitems: AgendaItem[]  (reviewed)\nheader  (fixed)\nhelpLine: UniversalHelpLine  (SP-23)\nformat: PDF | MARKDOWN",
       "textAlign": "left",
-      "updated": 1791767301010,
+      "updated": 1791825307224,
       "version": 1,
       "versionNonce": 1905559256,
       "verticalAlign": "top"
@@ -6026,7 +6026,7 @@
       "strokeColor": "#645E57",
       "strokeStyle": "solid",
       "strokeWidth": 2,
-      "updated": 1791767301010,
+      "updated": 1791825307224,
       "version": 1,
       "versionNonce": 1715740512
     },
@@ -6062,7 +6062,7 @@
       "strokeWidth": 2,
       "text": "«value object»",
       "textAlign": "left",
-      "updated": 1791767301010,
+      "updated": 1791825307224,
       "version": 1,
       "versionNonce": 1471549073,
       "verticalAlign": "top"
@@ -6099,7 +6099,7 @@
       "strokeWidth": 2,
       "text": "EntryRef",
       "textAlign": "left",
-      "updated": 1791767301010,
+      "updated": 1791825307224,
       "version": 1,
       "versionNonce": 1774189414,
       "verticalAlign": "top"
@@ -6142,7 +6142,7 @@
       "strokeColor": "#645E57",
       "strokeStyle": "solid",
       "strokeWidth": 1,
-      "updated": 1791767301010,
+      "updated": 1791825307224,
       "version": 1,
       "versionNonce": 235315289
     },
@@ -6178,7 +6178,7 @@
       "strokeWidth": 2,
       "text": "kind: EntryKind\nid: string\nentryDate: LocalDate  (not content)",
       "textAlign": "left",
-      "updated": 1791767301010,
+      "updated": 1791825307224,
       "version": 1,
       "versionNonce": 1657274891,
       "verticalAlign": "top"
@@ -6207,7 +6207,7 @@
       "strokeColor": "#645E57",
       "strokeStyle": "solid",
       "strokeWidth": 2,
-      "updated": 1791767301010,
+      "updated": 1791825307224,
       "version": 1,
       "versionNonce": 403357141
     },
@@ -6243,7 +6243,7 @@
       "strokeWidth": 2,
       "text": "«enum»",
       "textAlign": "left",
-      "updated": 1791767301010,
+      "updated": 1791825307224,
       "version": 1,
       "versionNonce": 1115009590,
       "verticalAlign": "top"
@@ -6280,7 +6280,7 @@
       "strokeWidth": 2,
       "text": "EntryKind",
       "textAlign": "left",
-      "updated": 1791767301010,
+      "updated": 1791825307224,
       "version": 1,
       "versionNonce": 509368257,
       "verticalAlign": "top"
@@ -6323,7 +6323,7 @@
       "strokeColor": "#645E57",
       "strokeStyle": "solid",
       "strokeWidth": 1,
-      "updated": 1791767301010,
+      "updated": 1791825307224,
       "version": 1,
       "versionNonce": 819619084
     },
@@ -6359,7 +6359,7 @@
       "strokeWidth": 2,
       "text": "CHECK_IN\nJOURNAL_ENTRY\nTHOUGHT_RECORD\nINSIGHT_CARD",
       "textAlign": "left",
-      "updated": 1791767301010,
+      "updated": 1791825307224,
       "version": 1,
       "versionNonce": 1629575334,
       "verticalAlign": "top"
@@ -6419,7 +6419,7 @@
       "strokeColor": "#2A2724",
       "strokeStyle": "solid",
       "strokeWidth": 1.5,
-      "updated": 1791767301010,
+      "updated": 1791825307224,
       "version": 1,
       "versionNonce": 406692131
     },
@@ -6473,7 +6473,7 @@
       "strokeColor": "#645E57",
       "strokeStyle": "dashed",
       "strokeWidth": 1.5,
-      "updated": 1791767301010,
+      "updated": 1791825307224,
       "version": 1,
       "versionNonce": 1319884717
     },
@@ -6527,7 +6527,7 @@
       "strokeColor": "#645E57",
       "strokeStyle": "dashed",
       "strokeWidth": 1.5,
-      "updated": 1791767301010,
+      "updated": 1791825307224,
       "version": 1,
       "versionNonce": 1747180132
     },
@@ -6581,7 +6581,7 @@
       "strokeColor": "#645E57",
       "strokeStyle": "dashed",
       "strokeWidth": 1.5,
-      "updated": 1791767301010,
+      "updated": 1791825307224,
       "version": 1,
       "versionNonce": 921776427
     },
@@ -6640,7 +6640,7 @@
       "strokeColor": "#645E57",
       "strokeStyle": "dashed",
       "strokeWidth": 1.5,
-      "updated": 1791767301010,
+      "updated": 1791825307224,
       "version": 1,
       "versionNonce": 449657928
     },
@@ -6699,7 +6699,7 @@
       "strokeColor": "#2A2724",
       "strokeStyle": "solid",
       "strokeWidth": 1.5,
-      "updated": 1791767301010,
+      "updated": 1791825307224,
       "version": 1,
       "versionNonce": 1858606118
     },
@@ -6758,7 +6758,7 @@
       "strokeColor": "#2A2724",
       "strokeStyle": "solid",
       "strokeWidth": 1.5,
-      "updated": 1791767301010,
+      "updated": 1791825307224,
       "version": 1,
       "versionNonce": 1114630414
     },
@@ -6817,7 +6817,7 @@
       "strokeColor": "#2A2724",
       "strokeStyle": "solid",
       "strokeWidth": 1.5,
-      "updated": 1791767301010,
+      "updated": 1791825307224,
       "version": 1,
       "versionNonce": 2138528692
     },
@@ -6876,7 +6876,7 @@
       "strokeColor": "#2A2724",
       "strokeStyle": "solid",
       "strokeWidth": 1.5,
-      "updated": 1791767301010,
+      "updated": 1791825307224,
       "version": 1,
       "versionNonce": 1473111774
     },
@@ -6935,7 +6935,7 @@
       "strokeColor": "#2A2724",
       "strokeStyle": "solid",
       "strokeWidth": 1.5,
-      "updated": 1791767301010,
+      "updated": 1791825307224,
       "version": 1,
       "versionNonce": 25377153
     },
@@ -6989,7 +6989,7 @@
       "strokeColor": "#645E57",
       "strokeStyle": "dashed",
       "strokeWidth": 1.5,
-      "updated": 1791767301010,
+      "updated": 1791825307224,
       "version": 1,
       "versionNonce": 50041715
     },
@@ -7048,7 +7048,7 @@
       "strokeColor": "#2A2724",
       "strokeStyle": "solid",
       "strokeWidth": 1.5,
-      "updated": 1791767301010,
+      "updated": 1791825307224,
       "version": 1,
       "versionNonce": 430868450
     },
@@ -7107,7 +7107,7 @@
       "strokeColor": "#2A2724",
       "strokeStyle": "solid",
       "strokeWidth": 1.5,
-      "updated": 1791767301010,
+      "updated": 1791825307224,
       "version": 1,
       "versionNonce": 501840732
     },
@@ -7166,7 +7166,7 @@
       "strokeColor": "#2A2724",
       "strokeStyle": "solid",
       "strokeWidth": 1.5,
-      "updated": 1791767301010,
+      "updated": 1791825307224,
       "version": 1,
       "versionNonce": 1731854383
     },
@@ -7225,7 +7225,7 @@
       "strokeColor": "#2A2724",
       "strokeStyle": "solid",
       "strokeWidth": 1.5,
-      "updated": 1791767301010,
+      "updated": 1791825307224,
       "version": 1,
       "versionNonce": 24384417
     },
@@ -7261,7 +7261,7 @@
       "strokeWidth": 2,
       "text": "NoInsight SAFETY_NET: the review offers help.\nThe use case checks the JournalSafetyNet and\npasses safetyNetHit to the engine.\nPause or hidden numbers: the evaluation runs,\nand the cards wait for the return (shownAt).\nTaking an item off the agenda keeps \"taken\".",
       "textAlign": "left",
-      "updated": 1791767301010,
+      "updated": 1791825307224,
       "version": 1,
       "versionNonce": 1050758988,
       "verticalAlign": "top"
@@ -7298,7 +7298,7 @@
       "strokeWidth": 2,
       "text": "Deleted entry: the agenda shows \"registro\nremovido\" (\"entry removed\") and the note, if any.\nThe EntryRef never copies the content. The\nevening log does not go on the agenda.",
       "textAlign": "left",
-      "updated": 1791767301010,
+      "updated": 1791825307224,
       "version": 1,
       "versionNonce": 1014806183,
       "verticalAlign": "top"
@@ -7327,7 +7327,7 @@
       "strokeColor": "#DDD6CC",
       "strokeStyle": "solid",
       "strokeWidth": 2,
-      "updated": 1791767301010,
+      "updated": 1791825307224,
       "version": 1,
       "versionNonce": 1855893571
     },
@@ -7363,7 +7363,7 @@
       "strokeWidth": 2,
       "text": "Identity & Consent · no account in Phase 1",
       "textAlign": "left",
-      "updated": 1791767301010,
+      "updated": 1791825307224,
       "version": 1,
       "versionNonce": 1144658115,
       "verticalAlign": "top"
@@ -7405,7 +7405,7 @@
       "strokeColor": "#34518A",
       "strokeStyle": "solid",
       "strokeWidth": 2,
-      "updated": 1791767301010,
+      "updated": 1791825307224,
       "version": 1,
       "versionNonce": 300903899
     },
@@ -7441,7 +7441,7 @@
       "strokeWidth": 2,
       "text": "«entity»",
       "textAlign": "left",
-      "updated": 1791767301010,
+      "updated": 1791825307224,
       "version": 1,
       "versionNonce": 1994327042,
       "verticalAlign": "top"
@@ -7478,7 +7478,7 @@
       "strokeWidth": 2,
       "text": "Consent",
       "textAlign": "left",
-      "updated": 1791767301010,
+      "updated": 1791825307224,
       "version": 1,
       "versionNonce": 721435639,
       "verticalAlign": "top"
@@ -7521,7 +7521,7 @@
       "strokeColor": "#34518A",
       "strokeStyle": "solid",
       "strokeWidth": 1,
-      "updated": 1791767301010,
+      "updated": 1791825307224,
       "version": 1,
       "versionNonce": 612562976
     },
@@ -7557,7 +7557,7 @@
       "strokeWidth": 2,
       "text": "id: ConsentId\npurpose: ConsentPurpose\ntextVersion: string\ngrantedAt: Date\nscope: string\nrevokedAt?: Date\n{one active per purpose}",
       "textAlign": "left",
-      "updated": 1791767301010,
+      "updated": 1791825307224,
       "version": 1,
       "versionNonce": 377526436,
       "verticalAlign": "top"
@@ -7591,7 +7591,7 @@
       "strokeColor": "#34518A",
       "strokeStyle": "solid",
       "strokeWidth": 2,
-      "updated": 1791767301010,
+      "updated": 1791825307224,
       "version": 1,
       "versionNonce": 393795065
     },
@@ -7627,7 +7627,7 @@
       "strokeWidth": 2,
       "text": "«entity»",
       "textAlign": "left",
-      "updated": 1791767301010,
+      "updated": 1791825307224,
       "version": 1,
       "versionNonce": 747377062,
       "verticalAlign": "top"
@@ -7664,7 +7664,7 @@
       "strokeWidth": 2,
       "text": "UserProfile",
       "textAlign": "left",
-      "updated": 1791767301010,
+      "updated": 1791825307224,
       "version": 1,
       "versionNonce": 1802788257,
       "verticalAlign": "top"
@@ -7707,7 +7707,7 @@
       "strokeColor": "#34518A",
       "strokeStyle": "solid",
       "strokeWidth": 1,
-      "updated": 1791767301010,
+      "updated": 1791825307224,
       "version": 1,
       "versionNonce": 741573456
     },
@@ -7743,7 +7743,7 @@
       "strokeWidth": 2,
       "text": "id: ProfileId\nregion: Region\nlanguage: Language\naccessibility: AccessibilityPrefs\nbiometricLock: boolean\nownPinEnabled: boolean\nscreenCaptureAllowed: boolean\nnotifications: NotificationPrefs  (generic text)\ntrackingMode: TrackingMode\npausedUntil?: Date\nnumbersHiddenUntil?: Date\ninCare?: boolean  (optional \"are you in care?\")\nexcessUseOfferEnabled: boolean\nlastExcessUseOfferAt?: Date",
       "textAlign": "left",
-      "updated": 1791767301010,
+      "updated": 1791825307224,
       "version": 1,
       "versionNonce": 1598483082,
       "verticalAlign": "top"
@@ -7772,7 +7772,7 @@
       "strokeColor": "#645E57",
       "strokeStyle": "solid",
       "strokeWidth": 2,
-      "updated": 1791767301010,
+      "updated": 1791825307224,
       "version": 1,
       "versionNonce": 1017304263
     },
@@ -7808,7 +7808,7 @@
       "strokeWidth": 2,
       "text": "«enum»",
       "textAlign": "left",
-      "updated": 1791767301010,
+      "updated": 1791825307224,
       "version": 1,
       "versionNonce": 810131062,
       "verticalAlign": "top"
@@ -7845,7 +7845,7 @@
       "strokeWidth": 2,
       "text": "TrackingMode",
       "textAlign": "left",
-      "updated": 1791767301010,
+      "updated": 1791825307224,
       "version": 1,
       "versionNonce": 1058782287,
       "verticalAlign": "top"
@@ -7888,7 +7888,7 @@
       "strokeColor": "#645E57",
       "strokeStyle": "solid",
       "strokeWidth": 1,
-      "updated": 1791767301010,
+      "updated": 1791825307224,
       "version": 1,
       "versionNonce": 1705839904
     },
@@ -7924,7 +7924,7 @@
       "strokeWidth": 2,
       "text": "LIGHT\nREGULAR  (default)\nDETAILED",
       "textAlign": "left",
-      "updated": 1791767301010,
+      "updated": 1791825307224,
       "version": 1,
       "versionNonce": 492473688,
       "verticalAlign": "top"
@@ -7984,7 +7984,7 @@
       "strokeColor": "#2A2724",
       "strokeStyle": "solid",
       "strokeWidth": 1.5,
-      "updated": 1791767301010,
+      "updated": 1791825307224,
       "version": 1,
       "versionNonce": 1475353144
     },
@@ -8017,7 +8017,7 @@
       "strokeColor": "#DDD6CC",
       "strokeStyle": "solid",
       "strokeWidth": 2,
-      "updated": 1791767301010,
+      "updated": 1791825307224,
       "version": 1,
       "versionNonce": 675609905
     },
@@ -8053,7 +8053,7 @@
       "strokeWidth": 2,
       "text": "Care & Safety",
       "textAlign": "left",
-      "updated": 1791767301010,
+      "updated": 1791825307224,
       "version": 1,
       "versionNonce": 1302276201,
       "verticalAlign": "top"
@@ -8082,7 +8082,7 @@
       "strokeColor": "#B06A28",
       "strokeStyle": "solid",
       "strokeWidth": 2,
-      "updated": 1791767301010,
+      "updated": 1791825307224,
       "version": 1,
       "versionNonce": 1989044079
     },
@@ -8118,7 +8118,7 @@
       "strokeWidth": 2,
       "text": "«versioned catalog»",
       "textAlign": "left",
-      "updated": 1791767301010,
+      "updated": 1791825307224,
       "version": 1,
       "versionNonce": 1130860800,
       "verticalAlign": "top"
@@ -8155,7 +8155,7 @@
       "strokeWidth": 2,
       "text": "JournalSafetyNet",
       "textAlign": "left",
-      "updated": 1791767301010,
+      "updated": 1791825307225,
       "version": 1,
       "versionNonce": 1441795913,
       "verticalAlign": "top"
@@ -8198,7 +8198,7 @@
       "strokeColor": "#B06A28",
       "strokeStyle": "solid",
       "strokeWidth": 1,
-      "updated": 1791767301010,
+      "updated": 1791825307225,
       "version": 1,
       "versionNonce": 1911769906
     },
@@ -8234,7 +8234,7 @@
       "strokeWidth": 2,
       "text": "terms: string[]  (by the co-author)\nversion: string\n+ matches(texts, period): boolean\nreads every free text: journal,\nthoughts and check-in notes",
       "textAlign": "left",
-      "updated": 1791767301010,
+      "updated": 1791825307225,
       "version": 1,
       "versionNonce": 1517185870,
       "verticalAlign": "top"
@@ -8268,7 +8268,7 @@
       "strokeColor": "#B06A28",
       "strokeStyle": "solid",
       "strokeWidth": 2,
-      "updated": 1791767301010,
+      "updated": 1791825307225,
       "version": 1,
       "versionNonce": 1895302266
     },
@@ -8304,7 +8304,7 @@
       "strokeWidth": 2,
       "text": "«versioned catalog»",
       "textAlign": "left",
-      "updated": 1791767301010,
+      "updated": 1791825307225,
       "version": 1,
       "versionNonce": 2002550473,
       "verticalAlign": "top"
@@ -8341,7 +8341,7 @@
       "strokeWidth": 2,
       "text": "HelpResource",
       "textAlign": "left",
-      "updated": 1791767301010,
+      "updated": 1791825307225,
       "version": 1,
       "versionNonce": 1302100746,
       "verticalAlign": "top"
@@ -8384,7 +8384,7 @@
       "strokeColor": "#B06A28",
       "strokeStyle": "solid",
       "strokeWidth": 1,
-      "updated": 1791767301010,
+      "updated": 1791825307225,
       "version": 1,
       "versionNonce": 1390866255
     },
@@ -8420,7 +8420,7 @@
       "strokeWidth": 2,
       "text": "region: Region\nname: string\nuse: CRISIS | FIND_CARE\nchannels: HelpChannel[]\nversion: string\nlastReviewedAt: Date",
       "textAlign": "left",
-      "updated": 1791767301010,
+      "updated": 1791825307225,
       "version": 1,
       "versionNonce": 53453747,
       "verticalAlign": "top"
@@ -8449,7 +8449,7 @@
       "strokeColor": "#645E57",
       "strokeStyle": "solid",
       "strokeWidth": 2,
-      "updated": 1791767301010,
+      "updated": 1791825307225,
       "version": 1,
       "versionNonce": 1129056402
     },
@@ -8485,7 +8485,7 @@
       "strokeWidth": 2,
       "text": "«aggregate · anonymous»",
       "textAlign": "left",
-      "updated": 1791767301010,
+      "updated": 1791825307225,
       "version": 1,
       "versionNonce": 1224849713,
       "verticalAlign": "top"
@@ -8522,7 +8522,7 @@
       "strokeWidth": 2,
       "text": "HelpCounter",
       "textAlign": "left",
-      "updated": 1791767301010,
+      "updated": 1791825307225,
       "version": 1,
       "versionNonce": 38730868,
       "verticalAlign": "top"
@@ -8565,7 +8565,7 @@
       "strokeColor": "#645E57",
       "strokeStyle": "solid",
       "strokeWidth": 1,
-      "updated": 1791767301010,
+      "updated": 1791825307225,
       "version": 1,
       "versionNonce": 1584272537
     },
@@ -8601,7 +8601,7 @@
       "strokeWidth": 2,
       "text": "count: number\n(no device id)",
       "textAlign": "left",
-      "updated": 1791767301010,
+      "updated": 1791825307225,
       "version": 1,
       "versionNonce": 641638173,
       "verticalAlign": "top"
@@ -8630,7 +8630,7 @@
       "strokeColor": "#34518A",
       "strokeStyle": "solid",
       "strokeWidth": 2,
-      "updated": 1791767301010,
+      "updated": 1791825307225,
       "version": 1,
       "versionNonce": 877782947
     },
@@ -8666,7 +8666,7 @@
       "strokeWidth": 2,
       "text": "«entity»",
       "textAlign": "left",
-      "updated": 1791767301010,
+      "updated": 1791825307225,
       "version": 1,
       "versionNonce": 2066435818,
       "verticalAlign": "top"
@@ -8703,7 +8703,7 @@
       "strokeWidth": 2,
       "text": "SupportPlan",
       "textAlign": "left",
-      "updated": 1791767301010,
+      "updated": 1791825307225,
       "version": 1,
       "versionNonce": 771773709,
       "verticalAlign": "top"
@@ -8746,7 +8746,7 @@
       "strokeColor": "#34518A",
       "strokeStyle": "solid",
       "strokeWidth": 1,
-      "updated": 1791767301010,
+      "updated": 1791825307225,
       "version": 1,
       "versionNonce": 1033474510
     },
@@ -8782,7 +8782,7 @@
       "strokeWidth": 2,
       "text": "id: SupportPlanId\ntrustedPeople?: Contact[]\nwhatHelps?: string[]\nsafePlaces?: string[]",
       "textAlign": "left",
-      "updated": 1791767301010,
+      "updated": 1791825307225,
       "version": 1,
       "versionNonce": 355652174,
       "verticalAlign": "top"
@@ -8816,7 +8816,7 @@
       "strokeColor": "#645E57",
       "strokeStyle": "solid",
       "strokeWidth": 2,
-      "updated": 1791767301010,
+      "updated": 1791825307225,
       "version": 1,
       "versionNonce": 1253943817
     },
@@ -8852,7 +8852,7 @@
       "strokeWidth": 2,
       "text": "«value object»",
       "textAlign": "left",
-      "updated": 1791767301010,
+      "updated": 1791825307225,
       "version": 1,
       "versionNonce": 97396532,
       "verticalAlign": "top"
@@ -8889,7 +8889,7 @@
       "strokeWidth": 2,
       "text": "HelpChannel",
       "textAlign": "left",
-      "updated": 1791767301010,
+      "updated": 1791825307225,
       "version": 1,
       "versionNonce": 1586639749,
       "verticalAlign": "top"
@@ -8932,7 +8932,7 @@
       "strokeColor": "#645E57",
       "strokeStyle": "solid",
       "strokeWidth": 1,
-      "updated": 1791767301010,
+      "updated": 1791825307225,
       "version": 1,
       "versionNonce": 1733779854
     },
@@ -8968,7 +8968,7 @@
       "strokeWidth": 2,
       "text": "kind: CALL | CHAT | IN_PERSON\nvalue?: string  (number or link)\navailability: string\nfree: boolean",
       "textAlign": "left",
-      "updated": 1791767301010,
+      "updated": 1791825307225,
       "version": 1,
       "versionNonce": 967796562,
       "verticalAlign": "top"
@@ -8997,7 +8997,7 @@
       "strokeColor": "#34518A",
       "strokeStyle": "solid",
       "strokeWidth": 2,
-      "updated": 1791767301010,
+      "updated": 1791825307225,
       "version": 1,
       "versionNonce": 1086903941
     },
@@ -9033,7 +9033,7 @@
       "strokeWidth": 2,
       "text": "«entity»",
       "textAlign": "left",
-      "updated": 1791767301010,
+      "updated": 1791825307225,
       "version": 1,
       "versionNonce": 655466442,
       "verticalAlign": "top"
@@ -9070,7 +9070,7 @@
       "strokeWidth": 2,
       "text": "RuminationCheck",
       "textAlign": "left",
-      "updated": 1791767301010,
+      "updated": 1791825307225,
       "version": 1,
       "versionNonce": 1725023851,
       "verticalAlign": "top"
@@ -9113,7 +9113,7 @@
       "strokeColor": "#34518A",
       "strokeStyle": "solid",
       "strokeWidth": 1,
-      "updated": 1791767301010,
+      "updated": 1791825307225,
       "version": 1,
       "versionNonce": 1065323692
     },
@@ -9149,7 +9149,7 @@
       "strokeWidth": 2,
       "text": "id: RuminationCheckId\nofferedAt: DateTime\nanswer?: HELPED | THINKING_MORE\n{no answer = skipped}\n{the next one only 4 weeks later}",
       "textAlign": "left",
-      "updated": 1791767301010,
+      "updated": 1791825307225,
       "version": 1,
       "versionNonce": 44479278,
       "verticalAlign": "top"
@@ -9178,7 +9178,7 @@
       "strokeColor": "#34518A",
       "strokeStyle": "solid",
       "strokeWidth": 2,
-      "updated": 1791767301010,
+      "updated": 1791825307225,
       "version": 1,
       "versionNonce": 1465124826
     },
@@ -9214,7 +9214,7 @@
       "strokeWidth": 2,
       "text": "«entity»",
       "textAlign": "left",
-      "updated": 1791767301010,
+      "updated": 1791825307225,
       "version": 1,
       "versionNonce": 439417767,
       "verticalAlign": "top"
@@ -9251,7 +9251,7 @@
       "strokeWidth": 2,
       "text": "UnwantedEffectReport",
       "textAlign": "left",
-      "updated": 1791767301010,
+      "updated": 1791825307225,
       "version": 1,
       "versionNonce": 1120639978,
       "verticalAlign": "top"
@@ -9294,7 +9294,7 @@
       "strokeColor": "#34518A",
       "strokeStyle": "solid",
       "strokeWidth": 1,
-      "updated": 1791767301010,
+      "updated": 1791825307225,
       "version": 1,
       "versionNonce": 1634179121
     },
@@ -9330,7 +9330,7 @@
       "strokeWidth": 2,
       "text": "id: ReportId\nat: DateTime\neffect: UnwantedEffect",
       "textAlign": "left",
-      "updated": 1791767301011,
+      "updated": 1791825307225,
       "version": 1,
       "versionNonce": 511851157,
       "verticalAlign": "top"
@@ -9359,7 +9359,7 @@
       "strokeColor": "#645E57",
       "strokeStyle": "solid",
       "strokeWidth": 2,
-      "updated": 1791767301011,
+      "updated": 1791825307225,
       "version": 1,
       "versionNonce": 1702809674
     },
@@ -9395,7 +9395,7 @@
       "strokeWidth": 2,
       "text": "«enum»",
       "textAlign": "left",
-      "updated": 1791767301011,
+      "updated": 1791825307225,
       "version": 1,
       "versionNonce": 514766759,
       "verticalAlign": "top"
@@ -9432,7 +9432,7 @@
       "strokeWidth": 2,
       "text": "UnwantedEffect",
       "textAlign": "left",
-      "updated": 1791767301011,
+      "updated": 1791825307225,
       "version": 1,
       "versionNonce": 648631474,
       "verticalAlign": "top"
@@ -9475,7 +9475,7 @@
       "strokeColor": "#645E57",
       "strokeStyle": "solid",
       "strokeWidth": 1,
-      "updated": 1791767301011,
+      "updated": 1791825307225,
       "version": 1,
       "versionNonce": 753216949
     },
@@ -9511,7 +9511,7 @@
       "strokeWidth": 2,
       "text": "tracking_increased_anxiety\ntracking_increased_rumination\ninsight_caused_distress\nrecommendation_caused_guilt\nuser_felt_judged",
       "textAlign": "left",
-      "updated": 1791767301011,
+      "updated": 1791825307225,
       "version": 1,
       "versionNonce": 1884729613,
       "verticalAlign": "top"
@@ -9545,7 +9545,7 @@
       "strokeColor": "#B06A28",
       "strokeStyle": "solid",
       "strokeWidth": 2,
-      "updated": 1791767301011,
+      "updated": 1791825307225,
       "version": 1,
       "versionNonce": 61257577
     },
@@ -9581,7 +9581,7 @@
       "strokeWidth": 2,
       "text": "«versioned catalog»",
       "textAlign": "left",
-      "updated": 1791767301011,
+      "updated": 1791825307225,
       "version": 1,
       "versionNonce": 481899670,
       "verticalAlign": "top"
@@ -9618,7 +9618,7 @@
       "strokeWidth": 2,
       "text": "UniversalHelpLine",
       "textAlign": "left",
-      "updated": 1791767301011,
+      "updated": 1791825307225,
       "version": 1,
       "versionNonce": 1419288177,
       "verticalAlign": "top"
@@ -9661,7 +9661,7 @@
       "strokeColor": "#B06A28",
       "strokeStyle": "solid",
       "strokeWidth": 1,
-      "updated": 1791767301011,
+      "updated": 1791825307225,
       "version": 1,
       "versionNonce": 2144920512
     },
@@ -9697,7 +9697,7 @@
       "strokeWidth": 2,
       "text": "text: string  (by the co-author)\nversion: string\n(review, report and onboarding)",
       "textAlign": "left",
-      "updated": 1791767301011,
+      "updated": 1791825307225,
       "version": 1,
       "versionNonce": 1959837560,
       "verticalAlign": "top"
@@ -9726,7 +9726,7 @@
       "strokeColor": "#2A2724",
       "strokeStyle": "solid",
       "strokeWidth": 2,
-      "updated": 1791767301011,
+      "updated": 1791825307225,
       "version": 1,
       "versionNonce": 726093563
     },
@@ -9762,7 +9762,7 @@
       "strokeWidth": 2,
       "text": "«domain service»",
       "textAlign": "left",
-      "updated": 1791767301011,
+      "updated": 1791825307225,
       "version": 1,
       "versionNonce": 635745442,
       "verticalAlign": "top"
@@ -9799,7 +9799,7 @@
       "strokeWidth": 2,
       "text": "UsageNudgePolicy",
       "textAlign": "left",
-      "updated": 1791767301011,
+      "updated": 1791825307225,
       "version": 1,
       "versionNonce": 1482581013,
       "verticalAlign": "top"
@@ -9842,7 +9842,7 @@
       "strokeColor": "#2A2724",
       "strokeStyle": "solid",
       "strokeWidth": 1,
-      "updated": 1791767301011,
+      "updated": 1791825307225,
       "version": 1,
       "versionNonce": 110695230
     },
@@ -9878,7 +9878,7 @@
       "strokeWidth": 2,
       "text": "+ shouldOffer(usage, lastOfferAt): boolean\nat most 1 offer per month (SP-17)\ncomputed on the device only\nnumbers set with the co-author",
       "textAlign": "left",
-      "updated": 1791767301011,
+      "updated": 1791825307225,
       "version": 1,
       "versionNonce": 1256578754,
       "verticalAlign": "top"
@@ -9938,7 +9938,7 @@
       "strokeColor": "#2A2724",
       "strokeStyle": "solid",
       "strokeWidth": 1.5,
-      "updated": 1791767301011,
+      "updated": 1791825307225,
       "version": 1,
       "versionNonce": 1362718434
     },
@@ -9974,7 +9974,7 @@
       "strokeWidth": 2,
       "text": "No monitoring, triage or risk classification.\nBefore unlock: crisis HelpResource only (SP-21).\nSupportPlan: only after unlock.\nRuminationCheck and UnwantedEffectReport: self-report only (SP-18).\nUsageNudgePolicy reads excessUseOfferEnabled and lastExcessUseOfferAt.",
       "textAlign": "left",
-      "updated": 1791767301011,
+      "updated": 1791825307225,
       "version": 1,
       "versionNonce": 101669915,
       "verticalAlign": "top"
@@ -10034,7 +10034,7 @@
       "strokeColor": "#645E57",
       "strokeStyle": "dashed",
       "strokeWidth": 1.5,
-      "updated": 1791767301011,
+      "updated": 1791825307225,
       "version": 1,
       "versionNonce": 1676355993
     },
@@ -10093,7 +10093,7 @@
       "strokeColor": "#645E57",
       "strokeStyle": "dashed",
       "strokeWidth": 1.5,
-      "updated": 1791767301011,
+      "updated": 1791825307225,
       "version": 1,
       "versionNonce": 1140111165
     },
@@ -10152,7 +10152,7 @@
       "strokeColor": "#645E57",
       "strokeStyle": "dashed",
       "strokeWidth": 1.5,
-      "updated": 1791767301011,
+      "updated": 1791825307225,
       "version": 1,
       "versionNonce": 137277368
     },
@@ -10206,7 +10206,7 @@
       "strokeColor": "#645E57",
       "strokeStyle": "dashed",
       "strokeWidth": 1.5,
-      "updated": 1791767301011,
+      "updated": 1791825307225,
       "version": 1,
       "versionNonce": 11869498
     },
@@ -10265,7 +10265,7 @@
       "strokeColor": "#645E57",
       "strokeStyle": "dashed",
       "strokeWidth": 1.5,
-      "updated": 1791767301011,
+      "updated": 1791825307225,
       "version": 1,
       "versionNonce": 1968412008
     },
@@ -10324,7 +10324,7 @@
       "strokeColor": "#645E57",
       "strokeStyle": "dashed",
       "strokeWidth": 1.5,
-      "updated": 1791767301011,
+      "updated": 1791825307225,
       "version": 1,
       "versionNonce": 832874528
     },
@@ -10352,7 +10352,7 @@
       "strokeColor": "#645E57",
       "strokeStyle": "dashed",
       "strokeWidth": 2,
-      "updated": 1791767301011,
+      "updated": 1791825307225,
       "version": 1,
       "versionNonce": 1381859109
     },
@@ -10388,7 +10388,7 @@
       "strokeWidth": 2,
       "text": "Phase 3",
       "textAlign": "left",
-      "updated": 1791767301011,
+      "updated": 1791825307225,
       "version": 1,
       "versionNonce": 1903681565,
       "verticalAlign": "top"
@@ -10425,7 +10425,7 @@
       "strokeWidth": 2,
       "text": "Routine and Billing: not modelled yet",
       "textAlign": "left",
-      "updated": 1791767301011,
+      "updated": 1791825307225,
       "version": 1,
       "versionNonce": 189945446,
       "verticalAlign": "top"
@@ -10454,7 +10454,7 @@
       "strokeColor": "#B06A28",
       "strokeStyle": "dashed",
       "strokeWidth": 2,
-      "updated": 1791767301011,
+      "updated": 1791825307225,
       "version": 1,
       "versionNonce": 230768750
     },
@@ -10490,7 +10490,7 @@
       "strokeWidth": 2,
       "text": "«Phase 3 · catalog»",
       "textAlign": "left",
-      "updated": 1791767301011,
+      "updated": 1791825307225,
       "version": 1,
       "versionNonce": 799108833,
       "verticalAlign": "top"
@@ -10527,7 +10527,7 @@
       "strokeWidth": 2,
       "text": "Intervention",
       "textAlign": "left",
-      "updated": 1791767301011,
+      "updated": 1791825307225,
       "version": 1,
       "versionNonce": 313473236,
       "verticalAlign": "top"
@@ -10570,7 +10570,7 @@
       "strokeColor": "#B06A28",
       "strokeStyle": "dashed",
       "strokeWidth": 1,
-      "updated": 1791767301011,
+      "updated": 1791825307225,
       "version": 1,
       "versionNonce": 1463664171
     },
@@ -10606,7 +10606,7 @@
       "strokeWidth": 2,
       "text": "text: string\nlimits: string\nversion: string\nauthor: string\nclinicalReview: Review",
       "textAlign": "left",
-      "updated": 1791767301011,
+      "updated": 1791825307225,
       "version": 1,
       "versionNonce": 1326187353,
       "verticalAlign": "top"
@@ -10635,7 +10635,7 @@
       "strokeColor": "#34518A",
       "strokeStyle": "solid",
       "strokeWidth": 2,
-      "updated": 1791767301011,
+      "updated": 1791825307225,
       "version": 1,
       "versionNonce": 13754337
     },
@@ -10671,7 +10671,7 @@
       "strokeWidth": 2,
       "text": "Entity · stays on the device only",
       "textAlign": "left",
-      "updated": 1791767301011,
+      "updated": 1791825307225,
       "version": 1,
       "versionNonce": 1196773846,
       "verticalAlign": "top"
@@ -10700,7 +10700,7 @@
       "strokeColor": "#34518A",
       "strokeStyle": "solid",
       "strokeWidth": 2,
-      "updated": 1791767301011,
+      "updated": 1791825307225,
       "version": 1,
       "versionNonce": 823519192
     },
@@ -10736,7 +10736,7 @@
       "strokeWidth": 2,
       "text": "Projection: what a module's API returns",
       "textAlign": "left",
-      "updated": 1791767301011,
+      "updated": 1791825307225,
       "version": 1,
       "versionNonce": 1421583427,
       "verticalAlign": "top"
@@ -10765,7 +10765,7 @@
       "strokeColor": "#645E57",
       "strokeStyle": "solid",
       "strokeWidth": 2,
-      "updated": 1791767301011,
+      "updated": 1791825307225,
       "version": 1,
       "versionNonce": 1759481993
     },
@@ -10801,7 +10801,7 @@
       "strokeWidth": 2,
       "text": "Value object or enum",
       "textAlign": "left",
-      "updated": 1791767301011,
+      "updated": 1791825307225,
       "version": 1,
       "versionNonce": 213521550,
       "verticalAlign": "top"
@@ -10830,7 +10830,7 @@
       "strokeColor": "#2A2724",
       "strokeStyle": "solid",
       "strokeWidth": 2,
-      "updated": 1791767301011,
+      "updated": 1791825307225,
       "version": 1,
       "versionNonce": 548476382
     },
@@ -10866,7 +10866,7 @@
       "strokeWidth": 2,
       "text": "Domain service (pure TypeScript)",
       "textAlign": "left",
-      "updated": 1791767301011,
+      "updated": 1791825307225,
       "version": 1,
       "versionNonce": 400144547,
       "verticalAlign": "top"
@@ -10895,7 +10895,7 @@
       "strokeColor": "#B06A28",
       "strokeStyle": "solid",
       "strokeWidth": 2,
-      "updated": 1791767301011,
+      "updated": 1791825307225,
       "version": 1,
       "versionNonce": 807426039
     },
@@ -10931,7 +10931,7 @@
       "strokeWidth": 2,
       "text": "Versioned catalog · clinical review",
       "textAlign": "left",
-      "updated": 1791767301011,
+      "updated": 1791825307225,
       "version": 1,
       "versionNonce": 1525316124,
       "verticalAlign": "top"
@@ -10960,7 +10960,7 @@
       "strokeColor": "#645E57",
       "strokeStyle": "dashed",
       "strokeWidth": 2,
-      "updated": 1791767301011,
+      "updated": 1791825307225,
       "version": 1,
       "versionNonce": 616588300
     },
@@ -10996,7 +10996,7 @@
       "strokeWidth": 2,
       "text": "Port or Phase 2/3 (dashed)",
       "textAlign": "left",
-      "updated": 1791767301011,
+      "updated": 1791825307225,
       "version": 1,
       "versionNonce": 1471616359,
       "verticalAlign": "top"
@@ -11039,7 +11039,7 @@
       "strokeColor": "#2A2724",
       "strokeStyle": "solid",
       "strokeWidth": 1.5,
-      "updated": 1791767301011,
+      "updated": 1791825307225,
       "version": 1,
       "versionNonce": 1108884941
     },
@@ -11075,7 +11075,7 @@
       "strokeWidth": 2,
       "text": "association, with multiplicity",
       "textAlign": "left",
-      "updated": 1791767301011,
+      "updated": 1791825307225,
       "version": 1,
       "versionNonce": 1958565986,
       "verticalAlign": "top"
@@ -11118,7 +11118,7 @@
       "strokeColor": "#2A2724",
       "strokeStyle": "solid",
       "strokeWidth": 1.5,
-      "updated": 1791767301011,
+      "updated": 1791825307225,
       "version": 1,
       "versionNonce": 422528660
     },
@@ -11154,7 +11154,7 @@
       "strokeWidth": 2,
       "text": "composition: the part cannot exist alone",
       "textAlign": "left",
-      "updated": 1791767301011,
+      "updated": 1791825307226,
       "version": 1,
       "versionNonce": 1280662693,
       "verticalAlign": "top"
@@ -11197,7 +11197,7 @@
       "strokeColor": "#645E57",
       "strokeStyle": "dashed",
       "strokeWidth": 1.5,
-      "updated": 1791767301011,
+      "updated": 1791825307226,
       "version": 1,
       "versionNonce": 1359105893
     },
@@ -11233,7 +11233,7 @@
       "strokeWidth": 2,
       "text": "dependency",
       "textAlign": "left",
-      "updated": 1791767301011,
+      "updated": 1791825307226,
       "version": 1,
       "versionNonce": 1534599148,
       "verticalAlign": "top"
@@ -11243,8 +11243,8 @@
       "type": "text",
       "x": 390,
       "y": 1480,
-      "width": 621,
-      "height": 94,
+      "width": 612,
+      "height": 113,
       "angle": 0,
       "autoResize": true,
       "backgroundColor": "transparent",
@@ -11261,16 +11261,16 @@
       "link": null,
       "locked": false,
       "opacity": 100,
-      "originalText": "Everything stays in the encrypted local database (ADR-012, ADR-018).\nA module never reads another module's tables: it uses that module's\nAPI and references by id. Names as in the code.\nSource: docs/product (journeys, domain, clinical safety, insights\nand AI, architecture). Attributes and types: a proposal for spec 002.",
+      "originalText": "Everything stays in the encrypted local database (ADR-012, ADR-018).\nA module never reads another module's tables: it uses that module's\nAPI and references by id. Names as in the code.\nSource: docs/product (journeys, domain, clinical safety, insights\nand AI, architecture). Attributes and types: a proposal for\nspec domain-checkin-and-patterns.",
       "roughness": 1,
       "roundness": null,
       "seed": 1305774403,
       "strokeColor": "#645E57",
       "strokeStyle": "solid",
       "strokeWidth": 2,
-      "text": "Everything stays in the encrypted local database (ADR-012, ADR-018).\nA module never reads another module's tables: it uses that module's\nAPI and references by id. Names as in the code.\nSource: docs/product (journeys, domain, clinical safety, insights\nand AI, architecture). Attributes and types: a proposal for spec 002.",
+      "text": "Everything stays in the encrypted local database (ADR-012, ADR-018).\nA module never reads another module's tables: it uses that module's\nAPI and references by id. Names as in the code.\nSource: docs/product (journeys, domain, clinical safety, insights\nand AI, architecture). Attributes and types: a proposal for\nspec domain-checkin-and-patterns.",
       "textAlign": "left",
-      "updated": 1791767301011,
+      "updated": 1791825307226,
       "version": 1,
       "versionNonce": 2064848823,
       "verticalAlign": "top"
@@ -11307,7 +11307,7 @@
       "strokeWidth": 1,
       "text": "0..1",
       "textAlign": "center",
-      "updated": 1791767301009,
+      "updated": 1791825307222,
       "version": 1,
       "versionNonce": 938534177,
       "verticalAlign": "middle"
@@ -11344,7 +11344,7 @@
       "strokeWidth": 1,
       "text": "0..1",
       "textAlign": "center",
-      "updated": 1791767301009,
+      "updated": 1791825307222,
       "version": 1,
       "versionNonce": 194586617,
       "verticalAlign": "middle"
@@ -11381,7 +11381,7 @@
       "strokeWidth": 1,
       "text": "0..1",
       "textAlign": "center",
-      "updated": 1791767301009,
+      "updated": 1791825307222,
       "version": 1,
       "versionNonce": 1270824551,
       "verticalAlign": "middle"
@@ -11418,7 +11418,7 @@
       "strokeWidth": 1,
       "text": "0..*  (closed list)",
       "textAlign": "center",
-      "updated": 1791767301009,
+      "updated": 1791825307222,
       "version": 1,
       "versionNonce": 846074520,
       "verticalAlign": "middle"
@@ -11455,7 +11455,7 @@
       "strokeWidth": 1,
       "text": "0..2",
       "textAlign": "center",
-      "updated": 1791767301010,
+      "updated": 1791825307224,
       "version": 1,
       "versionNonce": 1372987770,
       "verticalAlign": "middle"
@@ -11492,7 +11492,7 @@
       "strokeWidth": 1,
       "text": "Phase 2",
       "textAlign": "center",
-      "updated": 1791767301010,
+      "updated": 1791825307224,
       "version": 1,
       "versionNonce": 1142562525,
       "verticalAlign": "middle"
@@ -11529,7 +11529,7 @@
       "strokeWidth": 1,
       "text": "1",
       "textAlign": "center",
-      "updated": 1791767301010,
+      "updated": 1791825307224,
       "version": 1,
       "versionNonce": 205768383,
       "verticalAlign": "middle"
@@ -11566,7 +11566,7 @@
       "strokeWidth": 1,
       "text": "1",
       "textAlign": "center",
-      "updated": 1791767301010,
+      "updated": 1791825307224,
       "version": 1,
       "versionNonce": 762631543,
       "verticalAlign": "middle"
@@ -11603,7 +11603,7 @@
       "strokeWidth": 1,
       "text": "2",
       "textAlign": "center",
-      "updated": 1791767301010,
+      "updated": 1791825307224,
       "version": 1,
       "versionNonce": 1382729805,
       "verticalAlign": "middle"
@@ -11640,7 +11640,7 @@
       "strokeWidth": 1,
       "text": "computes 0..4",
       "textAlign": "center",
-      "updated": 1791767301010,
+      "updated": 1791825307224,
       "version": 1,
       "versionNonce": 455748613,
       "verticalAlign": "middle"
@@ -11677,7 +11677,7 @@
       "strokeWidth": 1,
       "text": "1",
       "textAlign": "center",
-      "updated": 1791767301010,
+      "updated": 1791825307224,
       "version": 1,
       "versionNonce": 1369550540,
       "verticalAlign": "middle"
@@ -11714,7 +11714,7 @@
       "strokeWidth": 1,
       "text": "0..1",
       "textAlign": "center",
-      "updated": 1791767301010,
+      "updated": 1791825307224,
       "version": 1,
       "versionNonce": 874607161,
       "verticalAlign": "middle"
@@ -11751,7 +11751,7 @@
       "strokeWidth": 1,
       "text": "0..*",
       "textAlign": "center",
-      "updated": 1791767301010,
+      "updated": 1791825307224,
       "version": 1,
       "versionNonce": 597221125,
       "verticalAlign": "middle"
@@ -11788,7 +11788,7 @@
       "strokeWidth": 1,
       "text": "selection",
       "textAlign": "center",
-      "updated": 1791767301010,
+      "updated": 1791825307224,
       "version": 1,
       "versionNonce": 402369992,
       "verticalAlign": "middle"
@@ -11825,7 +11825,7 @@
       "strokeWidth": 1,
       "text": "0..1",
       "textAlign": "center",
-      "updated": 1791767301010,
+      "updated": 1791825307224,
       "version": 1,
       "versionNonce": 161578860,
       "verticalAlign": "middle"
@@ -11862,7 +11862,7 @@
       "strokeWidth": 1,
       "text": "0..*",
       "textAlign": "center",
-      "updated": 1791767301010,
+      "updated": 1791825307224,
       "version": 1,
       "versionNonce": 1891827091,
       "verticalAlign": "middle"
@@ -11899,7 +11899,7 @@
       "strokeWidth": 1,
       "text": "1..*",
       "textAlign": "center",
-      "updated": 1791767301011,
+      "updated": 1791825307225,
       "version": 1,
       "versionNonce": 1913620619,
       "verticalAlign": "middle"
@@ -11936,7 +11936,7 @@
       "strokeWidth": 1,
       "text": "reads",
       "textAlign": "center",
-      "updated": 1791767301011,
+      "updated": 1791825307225,
       "version": 1,
       "versionNonce": 1016326302,
       "verticalAlign": "middle"
@@ -11973,7 +11973,7 @@
       "strokeWidth": 1,
       "text": "reads",
       "textAlign": "center",
-      "updated": 1791767301011,
+      "updated": 1791825307225,
       "version": 1,
       "versionNonce": 1669953576,
       "verticalAlign": "middle"
@@ -12010,7 +12010,7 @@
       "strokeWidth": 1,
       "text": "resolves the EntryRef",
       "textAlign": "center",
-      "updated": 1791767301011,
+      "updated": 1791825307225,
       "version": 1,
       "versionNonce": 2020773963,
       "verticalAlign": "middle"
@@ -12047,7 +12047,7 @@
       "strokeWidth": 1,
       "text": "only with Consent",
       "textAlign": "center",
-      "updated": 1791767301011,
+      "updated": 1791825307225,
       "version": 1,
       "versionNonce": 1759281283,
       "verticalAlign": "middle"
@@ -12084,7 +12084,7 @@
       "strokeWidth": 1,
       "text": "sent only with Consent",
       "textAlign": "center",
-      "updated": 1791767301011,
+      "updated": 1791825307225,
       "version": 1,
       "versionNonce": 755403715,
       "verticalAlign": "middle"

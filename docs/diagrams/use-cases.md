@@ -10,23 +10,23 @@ Nine diagrams: an overview, one per domain area in Phase 1, one for each later p
 
 ![Overview](use-cases/01-overview.png)
 
-## 2. Log the day, journal and thoughts (Tracking) — specs 007 to 010
+## 2. Log the day, journal and thoughts (Tracking) — specs `check-in`, `evening-factors`, `journal` and `thought-capture`
 
 ![Log the day](use-cases/02-log-the-day.png)
 
-## 3. Review, insights and session (Insights) — specs 011 to 014
+## 3. Review, insights and session (Insights) — specs `history-and-review`, `session-agenda`, `session-report` and `insight-cards`
 
 ![Insights and session](use-cases/03-insights-and-session.png)
 
-## 4. Help and care (Care & Safety) — specs 004, 016, 019 and 020
+## 4. Help and care (Care & Safety) — specs `app-shell-and-help`, `support-plan`, `wellbeing-checks` and `seeking-care-page`
 
 ![Help and care](use-cases/04-help-and-care.png)
 
-## 5. Tracking settings — specs 015 and 017
+## 5. Tracking settings — specs `tracking-controls` and `reminders`
 
 ![Tracking settings](use-cases/05-tracking-settings.png)
 
-## 6. Privacy and data — specs 003, 005 and 018; onboarding and the remote brake after personal use
+## 6. Privacy and data — specs `encrypted-storage`, `unlock-and-privacy` and `export-import-delete`; onboarding and the remote brake after personal use
 
 ![Privacy and data](use-cases/06-privacy-and-data.png)
 
@@ -38,7 +38,7 @@ Nine diagrams: an overview, one per domain area in Phase 1, one for each later p
 
 ![Phase 3 paid plan](use-cases/08-phase-3-paid-plan.png)
 
-## 9. AI lab (Python repository, on AWS) — lab specs 003 to 009
+## 9. AI lab (Python repository, on AWS) — lab specs from `rag-library` to `deploy`
 
 ![AI lab](use-cases/09-ai-lab.png)
 

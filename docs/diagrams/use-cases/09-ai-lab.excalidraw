@@ -35,7 +35,7 @@
       "strokeWidth": 2,
       "text": "Emovere — use cases: AI lab (Python repository, on AWS)",
       "textAlign": "left",
-      "updated": 1791665079712,
+      "updated": 1791825283569,
       "version": 1,
       "versionNonce": 1485624331,
       "verticalAlign": "top"
@@ -64,7 +64,7 @@
       "strokeColor": "#DDD6CC",
       "strokeStyle": "solid",
       "strokeWidth": 2,
-      "updated": 1791665079712,
+      "updated": 1791825283569,
       "version": 1,
       "versionNonce": 205889997
     },
@@ -100,7 +100,7 @@
       "strokeWidth": 2,
       "text": "AI lab · public documents and synthetic data only",
       "textAlign": "left",
-      "updated": 1791665079712,
+      "updated": 1791825283569,
       "version": 1,
       "versionNonce": 529420519,
       "verticalAlign": "top"
@@ -150,7 +150,7 @@
       "strokeColor": "transparent",
       "strokeStyle": "solid",
       "strokeWidth": 2,
-      "updated": 1791665079712,
+      "updated": 1791825283569,
       "version": 1,
       "versionNonce": 1251472240
     },
@@ -180,7 +180,7 @@
       "strokeColor": "#2A2724",
       "strokeStyle": "solid",
       "strokeWidth": 2,
-      "updated": 1791665079712,
+      "updated": 1791825283569,
       "version": 1,
       "versionNonce": 308618571
     },
@@ -222,7 +222,7 @@
       "strokeColor": "#2A2724",
       "strokeStyle": "solid",
       "strokeWidth": 2,
-      "updated": 1791665079712,
+      "updated": 1791825283569,
       "version": 1,
       "versionNonce": 300347418
     },
@@ -264,7 +264,7 @@
       "strokeColor": "#2A2724",
       "strokeStyle": "solid",
       "strokeWidth": 2,
-      "updated": 1791665079712,
+      "updated": 1791825283569,
       "version": 1,
       "versionNonce": 759049733
     },
@@ -310,7 +310,7 @@
       "strokeColor": "#2A2724",
       "strokeStyle": "solid",
       "strokeWidth": 2,
-      "updated": 1791665079712,
+      "updated": 1791825283569,
       "version": 1,
       "versionNonce": 1438980822
     },
@@ -346,7 +346,7 @@
       "strokeWidth": 2,
       "text": "Developer\n(maintainer)",
       "textAlign": "center",
-      "updated": 1791665079712,
+      "updated": 1791825283569,
       "version": 1,
       "versionNonce": 1488748978,
       "verticalAlign": "top"
@@ -380,7 +380,7 @@
       "strokeColor": "transparent",
       "strokeStyle": "solid",
       "strokeWidth": 2,
-      "updated": 1791665079712,
+      "updated": 1791825283569,
       "version": 1,
       "versionNonce": 1146269002
     },
@@ -410,7 +410,7 @@
       "strokeColor": "#B06A28",
       "strokeStyle": "solid",
       "strokeWidth": 2,
-      "updated": 1791665079712,
+      "updated": 1791825283569,
       "version": 1,
       "versionNonce": 6865559
     },
@@ -452,7 +452,7 @@
       "strokeColor": "#B06A28",
       "strokeStyle": "solid",
       "strokeWidth": 2,
-      "updated": 1791665079712,
+      "updated": 1791825283569,
       "version": 1,
       "versionNonce": 170461124
     },
@@ -494,7 +494,7 @@
       "strokeColor": "#B06A28",
       "strokeStyle": "solid",
       "strokeWidth": 2,
-      "updated": 1791665079712,
+      "updated": 1791825283569,
       "version": 1,
       "versionNonce": 953324991
     },
@@ -540,7 +540,7 @@
       "strokeColor": "#B06A28",
       "strokeStyle": "solid",
       "strokeWidth": 2,
-      "updated": 1791665079712,
+      "updated": 1791825283570,
       "version": 1,
       "versionNonce": 1566146954
     },
@@ -576,7 +576,7 @@
       "strokeWidth": 2,
       "text": "Clinical co-author",
       "textAlign": "left",
-      "updated": 1791665079712,
+      "updated": 1791825283570,
       "version": 1,
       "versionNonce": 960195188,
       "verticalAlign": "top"
@@ -610,7 +610,7 @@
       "strokeColor": "transparent",
       "strokeStyle": "solid",
       "strokeWidth": 2,
-      "updated": 1791665079712,
+      "updated": 1791825283570,
       "version": 1,
       "versionNonce": 1562029128
     },
@@ -640,7 +640,7 @@
       "strokeColor": "#B06A28",
       "strokeStyle": "solid",
       "strokeWidth": 2,
-      "updated": 1791665079712,
+      "updated": 1791825283570,
       "version": 1,
       "versionNonce": 829534615
     },
@@ -682,7 +682,7 @@
       "strokeColor": "#B06A28",
       "strokeStyle": "solid",
       "strokeWidth": 2,
-      "updated": 1791665079712,
+      "updated": 1791825283570,
       "version": 1,
       "versionNonce": 1625558212
     },
@@ -724,7 +724,7 @@
       "strokeColor": "#B06A28",
       "strokeStyle": "solid",
       "strokeWidth": 2,
-      "updated": 1791665079712,
+      "updated": 1791825283570,
       "version": 1,
       "versionNonce": 260938433
     },
@@ -770,7 +770,7 @@
       "strokeColor": "#B06A28",
       "strokeStyle": "solid",
       "strokeWidth": 2,
-      "updated": 1791665079712,
+      "updated": 1791825283570,
       "version": 1,
       "versionNonce": 873760392
     },
@@ -806,7 +806,7 @@
       "strokeWidth": 2,
       "text": "SDD agent\n(language-reviewer)",
       "textAlign": "left",
-      "updated": 1791665079712,
+      "updated": 1791825283570,
       "version": 1,
       "versionNonce": 1964768716,
       "verticalAlign": "top"
@@ -840,7 +840,7 @@
       "strokeColor": "transparent",
       "strokeStyle": "solid",
       "strokeWidth": 2,
-      "updated": 1791665079712,
+      "updated": 1791825283570,
       "version": 1,
       "versionNonce": 1795032038
     },
@@ -870,7 +870,7 @@
       "strokeColor": "#B06A28",
       "strokeStyle": "solid",
       "strokeWidth": 2,
-      "updated": 1791665079712,
+      "updated": 1791825283570,
       "version": 1,
       "versionNonce": 931971763
     },
@@ -912,7 +912,7 @@
       "strokeColor": "#B06A28",
       "strokeStyle": "solid",
       "strokeWidth": 2,
-      "updated": 1791665079712,
+      "updated": 1791825283570,
       "version": 1,
       "versionNonce": 85694434
     },
@@ -954,7 +954,7 @@
       "strokeColor": "#B06A28",
       "strokeStyle": "solid",
       "strokeWidth": 2,
-      "updated": 1791665079712,
+      "updated": 1791825283570,
       "version": 1,
       "versionNonce": 1781094893
     },
@@ -1000,7 +1000,7 @@
       "strokeColor": "#B06A28",
       "strokeStyle": "solid",
       "strokeWidth": 2,
-      "updated": 1791665079712,
+      "updated": 1791825283570,
       "version": 1,
       "versionNonce": 1393443518
     },
@@ -1036,7 +1036,7 @@
       "strokeWidth": 2,
       "text": "Public sources\n(WHO, Anvisa, CFP, LGPD)",
       "textAlign": "left",
-      "updated": 1791665079712,
+      "updated": 1791825283570,
       "version": 1,
       "versionNonce": 194528562,
       "verticalAlign": "top"
@@ -1090,7 +1090,7 @@
       "strokeColor": "#34518A",
       "strokeStyle": "solid",
       "strokeWidth": 2,
-      "updated": 1791665079712,
+      "updated": 1791825283570,
       "version": 1,
       "versionNonce": 850074880
     },
@@ -1131,7 +1131,7 @@
       "strokeColor": "#34518A",
       "strokeStyle": "solid",
       "strokeWidth": 2,
-      "updated": 1791665079712,
+      "updated": 1791825283570,
       "version": 1,
       "versionNonce": 1181479331
     },
@@ -1172,7 +1172,7 @@
       "strokeColor": "#34518A",
       "strokeStyle": "solid",
       "strokeWidth": 2,
-      "updated": 1791665079712,
+      "updated": 1791825283570,
       "version": 1,
       "versionNonce": 1930468916
     },
@@ -1213,7 +1213,7 @@
       "strokeColor": "#34518A",
       "strokeStyle": "solid",
       "strokeWidth": 2,
-      "updated": 1791665079712,
+      "updated": 1791825283570,
       "version": 1,
       "versionNonce": 2101454783
     },
@@ -1258,7 +1258,7 @@
       "strokeColor": "#34518A",
       "strokeStyle": "solid",
       "strokeWidth": 2,
-      "updated": 1791665079712,
+      "updated": 1791825283570,
       "version": 1,
       "versionNonce": 712218479
     },
@@ -1299,7 +1299,7 @@
       "strokeColor": "#34518A",
       "strokeStyle": "solid",
       "strokeWidth": 2,
-      "updated": 1791665079712,
+      "updated": 1791825283570,
       "version": 1,
       "versionNonce": 802311027
     },
@@ -1344,7 +1344,7 @@
       "strokeColor": "#34518A",
       "strokeStyle": "solid",
       "strokeWidth": 2,
-      "updated": 1791665079712,
+      "updated": 1791825283570,
       "version": 1,
       "versionNonce": 450026859
     },
@@ -1389,7 +1389,7 @@
       "strokeColor": "#34518A",
       "strokeStyle": "solid",
       "strokeWidth": 2,
-      "updated": 1791665079712,
+      "updated": 1791825283570,
       "version": 1,
       "versionNonce": 723962804
     },
@@ -1434,7 +1434,7 @@
       "strokeColor": "#34518A",
       "strokeStyle": "solid",
       "strokeWidth": 2,
-      "updated": 1791665079712,
+      "updated": 1791825283570,
       "version": 1,
       "versionNonce": 342759536
     },
@@ -1486,7 +1486,7 @@
       "strokeColor": "#2A2724",
       "strokeStyle": "solid",
       "strokeWidth": 1.5,
-      "updated": 1791665079712,
+      "updated": 1791825283570,
       "version": 1,
       "versionNonce": 194041628
     },
@@ -1538,7 +1538,7 @@
       "strokeColor": "#2A2724",
       "strokeStyle": "solid",
       "strokeWidth": 1.5,
-      "updated": 1791665079712,
+      "updated": 1791825283570,
       "version": 1,
       "versionNonce": 1951688546
     },
@@ -1590,7 +1590,7 @@
       "strokeColor": "#2A2724",
       "strokeStyle": "solid",
       "strokeWidth": 1.5,
-      "updated": 1791665079712,
+      "updated": 1791825283570,
       "version": 1,
       "versionNonce": 1695267382
     },
@@ -1642,7 +1642,7 @@
       "strokeColor": "#2A2724",
       "strokeStyle": "solid",
       "strokeWidth": 1.5,
-      "updated": 1791665079712,
+      "updated": 1791825283570,
       "version": 1,
       "versionNonce": 1590879507
     },
@@ -1694,7 +1694,7 @@
       "strokeColor": "#2A2724",
       "strokeStyle": "solid",
       "strokeWidth": 1.5,
-      "updated": 1791665079712,
+      "updated": 1791825283570,
       "version": 1,
       "versionNonce": 107844579
     },
@@ -1746,7 +1746,7 @@
       "strokeColor": "#2A2724",
       "strokeStyle": "solid",
       "strokeWidth": 1.5,
-      "updated": 1791665079712,
+      "updated": 1791825283570,
       "version": 1,
       "versionNonce": 1685162036
     },
@@ -1798,7 +1798,7 @@
       "strokeColor": "#2A2724",
       "strokeStyle": "solid",
       "strokeWidth": 1.5,
-      "updated": 1791665079713,
+      "updated": 1791825283570,
       "version": 1,
       "versionNonce": 42664121
     },
@@ -1850,7 +1850,7 @@
       "strokeColor": "#2A2724",
       "strokeStyle": "solid",
       "strokeWidth": 1.5,
-      "updated": 1791665079713,
+      "updated": 1791825283570,
       "version": 1,
       "versionNonce": 494898115
     },
@@ -1909,7 +1909,7 @@
       "strokeColor": "#645E57",
       "strokeStyle": "dashed",
       "strokeWidth": 1.5,
-      "updated": 1791665079713,
+      "updated": 1791825283570,
       "version": 1,
       "versionNonce": 1734197372
     },
@@ -1968,7 +1968,7 @@
       "strokeColor": "#645E57",
       "strokeStyle": "dashed",
       "strokeWidth": 1.5,
-      "updated": 1791665079713,
+      "updated": 1791825283570,
       "version": 1,
       "versionNonce": 1830181249
     },
@@ -2027,7 +2027,7 @@
       "strokeColor": "#645E57",
       "strokeStyle": "dashed",
       "strokeWidth": 1.5,
-      "updated": 1791665079713,
+      "updated": 1791825283570,
       "version": 1,
       "versionNonce": 319049695
     },
@@ -2086,7 +2086,7 @@
       "strokeColor": "#645E57",
       "strokeStyle": "dashed",
       "strokeWidth": 1.5,
-      "updated": 1791665079713,
+      "updated": 1791825283570,
       "version": 1,
       "versionNonce": 179174950
     },
@@ -2113,16 +2113,16 @@
       "link": null,
       "locked": false,
       "opacity": 100,
-      "originalText": "The reviewer never approves on its own: the\nco-author decides, in the Clinical Decision Log.\n\nEvery request produces a trace with tokens, cost,\nlatency and the eval score (spec 006).\n\nThe reviewer API runs on AWS, with Docker,\nTerraform and deployment from CI (spec 009).",
+      "originalText": "The reviewer never approves on its own: the\nco-author decides, in the Clinical Decision Log.\n\nEvery request produces a trace with tokens, cost,\nlatency and the eval score (spec observability).\n\nThe reviewer API runs on AWS, with Docker,\nTerraform and deployment from CI (spec deploy).",
       "roughness": 1,
       "roundness": null,
       "seed": 1705788106,
       "strokeColor": "#645E57",
       "strokeStyle": "solid",
       "strokeWidth": 2,
-      "text": "The reviewer never approves on its own: the\nco-author decides, in the Clinical Decision Log.\n\nEvery request produces a trace with tokens, cost,\nlatency and the eval score (spec 006).\n\nThe reviewer API runs on AWS, with Docker,\nTerraform and deployment from CI (spec 009).",
+      "text": "The reviewer never approves on its own: the\nco-author decides, in the Clinical Decision Log.\n\nEvery request produces a trace with tokens, cost,\nlatency and the eval score (spec observability).\n\nThe reviewer API runs on AWS, with Docker,\nTerraform and deployment from CI (spec deploy).",
       "textAlign": "left",
-      "updated": 1791665079713,
+      "updated": 1791825283570,
       "version": 1,
       "versionNonce": 478328548,
       "verticalAlign": "top"
@@ -2150,16 +2150,16 @@
       "link": null,
       "locked": false,
       "opacity": 100,
-      "originalText": "Lab specs: 003 RAG library · 004 reviewer · 005 evals · 006 observability · 007 agent · 008 MCP · 009 deploy.\nThe SDD agent lives in the app repository and queries the reviewer during development; it is not an app screen.  Source: docs/roadmap/spec-plan.md.",
+      "originalText": "Lab specs: rag-library · text-reviewer · eval-harness · observability · reviewer-agent · mcp-server · deploy.\nThe SDD agent lives in the app repository and queries the reviewer during development; it is not an app screen.  Source: docs/roadmap/spec-plan.md.",
       "roughness": 1,
       "roundness": null,
       "seed": 91286553,
       "strokeColor": "#645E57",
       "strokeStyle": "solid",
       "strokeWidth": 2,
-      "text": "Lab specs: 003 RAG library · 004 reviewer · 005 evals · 006 observability · 007 agent · 008 MCP · 009 deploy.\nThe SDD agent lives in the app repository and queries the reviewer during development; it is not an app screen.  Source: docs/roadmap/spec-plan.md.",
+      "text": "Lab specs: rag-library · text-reviewer · eval-harness · observability · reviewer-agent · mcp-server · deploy.\nThe SDD agent lives in the app repository and queries the reviewer during development; it is not an app screen.  Source: docs/roadmap/spec-plan.md.",
       "textAlign": "left",
-      "updated": 1791665079713,
+      "updated": 1791825283570,
       "version": 1,
       "versionNonce": 1429790967,
       "verticalAlign": "top"
@@ -2196,7 +2196,7 @@
       "strokeWidth": 1,
       "text": "Review an app text\n(LangGraph agent)",
       "textAlign": "center",
-      "updated": 1791665079712,
+      "updated": 1791825283570,
       "version": 1,
       "versionNonce": 699008041,
       "verticalAlign": "middle"
@@ -2233,7 +2233,7 @@
       "strokeWidth": 1,
       "text": "Run the evals\n(declared n, adversarial)",
       "textAlign": "center",
-      "updated": 1791665079712,
+      "updated": 1791825283570,
       "version": 1,
       "versionNonce": 655224316,
       "verticalAlign": "middle"
@@ -2270,7 +2270,7 @@
       "strokeWidth": 1,
       "text": "Simulate false insights\n(2 × 28-day rule)",
       "textAlign": "center",
-      "updated": 1791665079712,
+      "updated": 1791825283570,
       "version": 1,
       "versionNonce": 908457677,
       "verticalAlign": "middle"
@@ -2307,7 +2307,7 @@
       "strokeWidth": 1,
       "text": "See traces, cost\nand latency",
       "textAlign": "center",
-      "updated": 1791665079712,
+      "updated": 1791825283570,
       "version": 1,
       "versionNonce": 904586410,
       "verticalAlign": "middle"
@@ -2344,7 +2344,7 @@
       "strokeWidth": 1,
       "text": "Ingest the public sources\n(chunks, embeddings, pgvector)",
       "textAlign": "center",
-      "updated": 1791665079712,
+      "updated": 1791825283570,
       "version": 1,
       "versionNonce": 474710152,
       "verticalAlign": "middle"
@@ -2381,7 +2381,7 @@
       "strokeWidth": 1,
       "text": "Retrieve excerpts\n(hybrid search)",
       "textAlign": "center",
-      "updated": 1791665079712,
+      "updated": 1791825283570,
       "version": 1,
       "versionNonce": 1304728444,
       "verticalAlign": "middle"
@@ -2418,7 +2418,7 @@
       "strokeWidth": 1,
       "text": "Approve or reject the\nreport (human stop)",
       "textAlign": "center",
-      "updated": 1791665079712,
+      "updated": 1791825283570,
       "version": 1,
       "versionNonce": 688713042,
       "verticalAlign": "middle"
@@ -2455,7 +2455,7 @@
       "strokeWidth": 1,
       "text": "Query the reviewer\n(MCP server)",
       "textAlign": "center",
-      "updated": 1791665079712,
+      "updated": 1791825283570,
       "version": 1,
       "versionNonce": 1795171463,
       "verticalAlign": "middle"
@@ -2492,7 +2492,7 @@
       "strokeWidth": 1,
       "text": "Download from\nofficial sites",
       "textAlign": "center",
-      "updated": 1791665079712,
+      "updated": 1791825283570,
       "version": 1,
       "versionNonce": 524499731,
       "verticalAlign": "middle"
@@ -2529,7 +2529,7 @@
       "strokeWidth": 1,
       "text": "«include»",
       "textAlign": "center",
-      "updated": 1791665079713,
+      "updated": 1791825283570,
       "version": 1,
       "versionNonce": 2127387303,
       "verticalAlign": "middle"
@@ -2566,7 +2566,7 @@
       "strokeWidth": 1,
       "text": "«include»",
       "textAlign": "center",
-      "updated": 1791665079713,
+      "updated": 1791825283570,
       "version": 1,
       "versionNonce": 1838052694,
       "verticalAlign": "middle"
@@ -2603,7 +2603,7 @@
       "strokeWidth": 1,
       "text": "«include»",
       "textAlign": "center",
-      "updated": 1791665079713,
+      "updated": 1791825283570,
       "version": 1,
       "versionNonce": 1416223158,
       "verticalAlign": "middle"
@@ -2640,7 +2640,7 @@
       "strokeWidth": 1,
       "text": "«include»",
       "textAlign": "center",
-      "updated": 1791665079713,
+      "updated": 1791825283570,
       "version": 1,
       "versionNonce": 1246099003,
       "verticalAlign": "middle"

@@ -2,7 +2,7 @@
 
 > Part of the Emovere product specification. Status: draft. Emovere is a self-knowledge journal that complements, and never replaces, professional care. It is not a medical device.
 
-The app's domain model: the entities in [Domain model](../product/04-domain-model.md), grouped into its modules, with the insight-engine services from [Insights and AI](../product/08-insights-and-ai.md). Three columns: Tracking; Insights; Identity & Consent with Care & Safety. The `.png` is for viewing and the `.excalidraw` file for editing in [Excalidraw](https://excalidraw.com). The domain starts in spec `002-domain-checkin-and-patterns` (see the [Spec plan](../roadmap/spec-plan.md)); the use cases are in [Use-case diagrams](use-cases.md).
+The app's domain model: the entities in [Domain model](../product/04-domain-model.md), grouped into its modules, with the insight-engine services from [Insights and AI](../product/08-insights-and-ai.md). Three columns: Tracking; Insights; Identity & Consent with Care & Safety. The `.png` is for viewing and the `.excalidraw` file for editing in [Excalidraw](https://excalidraw.com). The domain starts in spec `domain-checkin-and-patterns` (see the [Spec plan](../roadmap/spec-plan.md)); the use cases are in [Use-case diagrams](use-cases.md).
 
 **How to read it:** a blue box is an entity (it stays on the device only); a white box with a blue border is a projection (what one module's API returns to another); a white box with a grey border is a value object or an enum; a black border is a domain service (pure TypeScript); an amber border is a versioned catalog, which only changes with clinical review; dashed means a port or Phase 2/3. A solid arrow is an association, with multiplicity; a diamond is a composition; a dashed arrow is a dependency.
 
@@ -12,7 +12,7 @@ The app's domain model: the entities in [Domain model](../product/04-domain-mode
 
 - **Fact:** the entities, the modules and the rules written in the diagram's notes come from the product specification (`docs/product`) and the psychological safety criteria (SP).
 - **Fact:** the `InsightRule` numbers are those of ADR-022 and SP-06 to SP-08. The specification itself says they are proposals to calibrate with the clinical co-author (see [Clinical safety](../product/07-clinical-safety.md) and [Insights and AI](../product/08-insights-and-ai.md)).
-- **Hypothesis (proposal):** the attribute and type names (`pausedUntil`, `PatternWindow`, `EntryRef`, `canReappearAfter`…). The specification describes what each entity holds, but not the names or types. They are a starting point for spec 002, whose `spec.md` decides.
+- **Hypothesis (proposal):** the attribute and type names (`pausedUntil`, `PatternWindow`, `EntryRef`, `canReappearAfter`…). The specification describes what each entity holds, but not the names or types. They are a starting point for spec `domain-checkin-and-patterns`, whose `spec.md` decides.
 
 ## Modelling decisions
 
@@ -59,7 +59,7 @@ The app's domain model: the entities in [Domain model](../product/04-domain-mode
 
 ## Types mentioned without a box
 
-They appear in attributes but either have no rule of their own in the specification or are plain values. They become types in the code of spec 002, or of whichever spec uses them.
+They appear in attributes but either have no rule of their own in the specification or are plain values. They become types in the code of spec `domain-checkin-and-patterns`, or of whichever spec uses them.
 
 | Type | What it is | Status |
 |---|---|---|
@@ -73,7 +73,7 @@ They appear in attributes but either have no rule of their own in the specificat
 | `Contact`, `Phone`, `ChatUrl` | Contacts in the support plan and the help resources | Plain |
 | `Review` | Record of the clinical review of an `Intervention` | Phase 3 only |
 | `ConsentPurpose`, `ProcessingState` | Consent purposes and journal states | Open (questions 5 and 6) |
-| `candidates`, `previousCards`, `usage`, `facts` | Service parameters | Detail in spec 002 (and in the wellbeing spec, for `usage`) |
+| `candidates`, `previousCards`, `usage`, `facts` | Service parameters | Detail in spec `domain-checkin-and-patterns` (and in the wellbeing spec, for `usage`) |
 
 ## Open questions
 
@@ -85,7 +85,7 @@ They appear in attributes but either have no rule of their own in the specificat
 6. **Consent purposes (`ConsentPurpose`):** the closed list does not exist yet. Candidates from the specification: AI (Phase 2), help counter, sending `RuminationCheck` and `UnwantedEffectReport` results, crash reports.
 7. **`trackingMode` in Identity & Consent:** it is a preference, but Tracking uses it. Does it stay in the profile or move to Tracking?
 8. **`SupportPlan`:** the domain model lists trusted people, what helps and safe places; [Clinical safety](../product/07-clinical-safety.md) cites the Stanley & Brown components (warning signs, coping strategies, support people, professional contacts). Which list applies? A question for the clinical co-author.
-9. **Calendar rules** (already marked "to be decided" in [Insights and AI](../product/08-insights-and-ai.md)): do two check-ins on the same day become the day's average? Does an entry made before 4 a.m. count for the previous day? These are `InsightEngine` rules, for spec 002.
+9. **Calendar rules** (already marked "to be decided" in [Insights and AI](../product/08-insights-and-ai.md)): do two check-ins on the same day become the day's average? Does an entry made before 4 a.m. count for the previous day? These are `InsightEngine` rules, for spec `domain-checkin-and-patterns`.
 10. **Stable ids across catalog versions:** when the co-author changes the word or factor list, do old entries keep pointing to ids that exist? Proposal: an id is never reused, and a removed item is marked as retired.
 11. **Removed entry in the report:** when an agenda item points to a deleted entry, does the `SessionReport` show "registro removido" (with the note) or leave the item out? (Also in [Open questions](../product/18-open-questions.md).)
 12. **"Relevant change" (SP-08), for the clinical co-author:** what lets an insight come back before 56 days?
