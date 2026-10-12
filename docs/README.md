@@ -12,7 +12,7 @@ Emovere is not an emergency service. In Brazil, call **CVV 188** (24 hours, free
 
 ## Current state
 
-- No app code yet. Development starts with spec `001-bootstrap` (see the [Spec plan](roadmap/spec-plan.md)).
+- No app code yet. Development starts with spec `bootstrap` (see the [Spec plan](roadmap/spec-plan.md)).
 - Every clinical item (content, factors, thresholds, help texts) is a draft until the clinical co-author, a licensed psychologist, reviews it.
 - No one other than the maintainer uses the app with real data until the evaluation by psychologists and the legal review are done (see [Phases](product/05-phases.md)).
 - No license yet: it is chosen in legal review (ADR-029).
@@ -48,10 +48,10 @@ Emovere is not an emergency service. In Brazil, call **CVV 188** (24 hours, free
 
 - [ADRs](decisions/adrs.md) — architecture and product decisions ADR-001 to ADR-032.
 - [Hazard log](safety/hazard-log.md) — what can go wrong for the people who use the app, and the protections.
-- [Constitution draft](constitution-draft.md) — the development rules for Spec Kit (v0.2.1).
+- [Constitution draft](constitution-draft.md) — the development rules for Spec Kit (v0.2.2).
 - [Spec plan](roadmap/spec-plan.md) — the order of the specs for the app and the AI lab.
 - [Use-case diagrams](diagrams/use-cases.md) — nine diagrams, as PNG and editable Excalidraw files.
-- [Domain class diagram](diagrams/class-diagram.md) — the domain model behind spec 002, with modelling decisions and open questions.
+- [Domain class diagram](diagrams/class-diagram.md) — the domain model behind spec `domain-checkin-and-patterns`, with modelling decisions and open questions.
 - [False-insight simulation](research/false-insight-simulation.py) — the synthetic-data simulation behind the insight rule (ADR-022); requires Python 3 and numpy.
 
 ## Conventions

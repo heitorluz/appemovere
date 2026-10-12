@@ -19,7 +19,7 @@ Not covered: missing days concentrated on bad days, weekly cycles, reverse causa
 
 Usage: python3 false-insight-simulation.py   (requires numpy; takes a few minutes)
 
-The canonical version will live in the AI lab repository (spec 002-insight-simulation, ADR-030);
+The canonical version will live in the AI lab repository (spec insight-simulation, ADR-030);
 the app ports the chosen rule as a test (SP-22).
 """
 import numpy as np

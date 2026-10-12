@@ -10,7 +10,7 @@ Emovere is not an emergency service. In Brazil, call **CVV 188** (24 hours, free
 
 ## Status
 
-Pre-development: there is no app code yet. This repository holds the product specification, written before the code (spec-driven development). Development starts with spec `001-bootstrap`.
+Pre-development: there is no app code yet. This repository holds the product specification, written before the code (spec-driven development). Development starts with spec `bootstrap`.
 
 - [Product documentation](docs/README.md) — start here
 - [Spec plan](docs/roadmap/spec-plan.md) — the order of the work
