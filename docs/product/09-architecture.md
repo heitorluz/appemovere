@@ -21,10 +21,14 @@ revisor/      # text reviewer: public sources → report for the clinical co-aut
 evals/        # AI evaluation harness (Phase 2), with synthetic Patterns
 simulation/   # original false-insight simulation (generates synthetic Patterns)
 
-Each domain module
-  domain/  application/  infrastructure/  tests/
+Each bounded context (constitution, principle V)
+  packages/domain/src/<context>/domain/        # entities, value objects, domain rules
+  packages/domain/src/<context>/application/   # use cases and the ports they need
+  apps/mobile/src/<context>/infrastructure/    # adapters (database, keys, notifications…)
+packages/domain/src/shared/                    # generic value objects only
 ```
 
+- **Clean Architecture and DDD (constitution, principle V):** dependencies point inward only — adapters → application → domain. The bounded contexts are the modules of the [Domain model](04-domain-model.md); a context uses another only through its application API, and the code uses the domain model's terms as its ubiquitous language.
 - **Data only on the device (ADR-018):** encrypted SQLite (expo-sqlite with SQLCipher), with the key in the Keychain/Keystore (expo-secure-store), bound to this device only and excluded from the system backup (SP-25). There is no server for health data.
 - **No own server in Phase 1 (ADR-024):** content is bundled in the app. The only required network read is a static configuration file, published on the project website, that **can only turn features off**. If someone tampers with it, the worst case is a feature turned off. Without internet, the safe configuration bundled in the app applies.
 - The domain — `Pattern` calculation, insight rule, validator — is pure TypeScript, tested without the app and without the database.

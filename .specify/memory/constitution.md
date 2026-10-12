@@ -63,22 +63,25 @@ _Why: claims decide whether software is regulated as a medical device, and words
 
 **Gate:** the term linter (SP-04) runs on content and translation files in CI and blocks the merge.
 
-### V. Dependency Rule Points Inward (NON-NEGOTIABLE)
+### V. Clean Architecture and Domain-Driven Design — Dependency Rule Points Inward (NON-NEGOTIABLE)
 
-_Why: the domain must be testable without the app, the database or the network, and swapping a storage engine or an AI provider must not touch a rule._
+_Why: the domain must be testable without the app, the database or the network, and swapping a storage engine or an AI provider must not touch a rule. The bounded contexts and their language come from `docs/`, so the code reads like the product specification._
 
 - MUST: `packages/domain` be pure TypeScript — no React, Expo, database, network, real clock or global identifiers.
-- MUST: storage, secure key, biometrics, notifications and AI providers sit behind ports declared in the domain; adapters live in the app; a single composition root wires ports to adapters.
-- MUST: modules expose explicit internal APIs and never read another module's tables.
+- MUST: three layers, with dependencies pointing inward only — adapters → application → domain. `packages/domain/src/<context>/domain/` holds entities, value objects and domain rules; `packages/domain/src/<context>/application/` holds the use cases and the ports they need; adapters live in `apps/mobile/src/<context>/infrastructure/`.
+- MUST: storage, secure key, biometrics, notifications and AI providers sit behind ports declared in the application layer of `packages/domain`; adapters live in the app; a single composition root wires ports to adapters.
+- MUST: the bounded contexts be the modules of the domain model in `docs/` (Tracking, Insights, Care & Safety, Identity & Consent). A context uses another only through that context's application API, never importing its domain, and never reads another context's tables. `packages/domain/src/shared/` holds only generic value objects (local date, day, identifier) with no rule of any context.
+- MUST: the code use the terms of the domain model in `docs/` as its ubiquitous language — entities, value objects and use cases carry the documented names, without abbreviations — and an aggregate change only through its root.
 - MUST NOT: the app import code from the AI lab repository. Shared contracts — the `Pattern` schema and the content export — are versioned and published by this repository (ADR-030).
 
-**Gate:** `pnpm architecture:check` in CI.
+**Gate:** `pnpm architecture:check` in CI enforces domain purity, the layers and the context boundaries; the ubiquitous language and aggregate roots are checked in review.
 
-### VI. Test-First, Red-Green-Refactor (NON-NEGOTIABLE)
+### VI. Test-Driven Development (TDD): Red-Green-Refactor (NON-NEGOTIABLE)
 
 _Why: it is what makes "pure domain" and the safety criteria observable._
 
 - MUST: write the test before the implementation and prove RED — failing for the expected reason.
+- MUST: follow the TDD cycle for every change of behaviour: RED (a failing test), GREEN (the least code that makes it pass), REFACTOR (clean the code with the tests still green, within the Clean Code limits in Technical Constraints and Stack).
 - MUST: every domain invariant have a unit test without infrastructure.
 - MUST: every adapter have an integration test against the real encrypted database with real migrations: migrations preserve data, the database does not open without the key, deletion makes it unreadable.
 - MUST: the remote-configuration brake be tested function by function: each one can be switched off, the file cannot switch anything on, and offline the safe default applies (SP-24).
@@ -89,7 +92,7 @@ _Why: it is what makes "pure domain" and the safety criteria observable._
 - MUST: in `tasks.md`, test tasks precede implementation tasks for each story.
 - Exception: `bootstrap` is exempt from RED as a whole and MUST leave the runners and suites installed.
 
-**Gate:** test tasks before implementation tasks in `tasks.md`; commits or handoff show RED → GREEN.
+**Gate:** test tasks before implementation tasks in `tasks.md`; commits or handoff show RED → GREEN → REFACTOR.
 
 ### VII. Minimal Effective Interaction, Local-First
 
@@ -112,6 +115,7 @@ _Why: the documentation states limits, trade-offs, known failures and revisable 
 ## Technical Constraints and Stack
 
 - **Language and tooling:** TypeScript in strict mode; pnpm workspaces; ESLint, Prettier and Husky; GitHub Actions.
+- **Clean Code limits (lint, in `packages/domain` and `apps/mobile`):** cyclomatic complexity ≤ 10; function ≤ 50 lines; file ≤ 300 lines; at most 3 parameters (more go in one object); nesting depth ≤ 3. Lines are counted without blank lines and comments; tests are exempt from the function-length limit. A violation fails `pnpm lint`.
 - **App:** Expo (current SDK) with Expo Router; UI on NativeWind with React Native Reusables (alternatives: Tamagui or gluestack-ui); the official visual direction "Linho e anil" (tokens ported to `docs/`).
 - **Device:** expo-sqlite with SQLCipher; expo-secure-store for the key; expo-local-authentication for biometrics; expo-notifications for local reminders only.
 - **Persistence:** Drizzle ORM over expo-sqlite. `[NEEDS CLARIFICATION: a spike must confirm Drizzle works with the SQLCipher-encrypted database; otherwise, hand-written SQL repositories behind the same ports]`
@@ -185,7 +189,7 @@ _Why: in a public repository a commit is a publication. Once in history, content
 
 - MUST: invariants covered by domain tests; adapters by integration tests; affected SP criteria covered.
 - MUST: `docs/` in agreement with the delivered code (VIII).
-- MUST: handoff with the commands run and the RED → GREEN evidence.
+- MUST: handoff with the commands run and the RED → GREEN → REFACTOR evidence.
 - MUST: the `Review` section of `tasks.md` record the result (`**Result**:` approved or changes requested) and the owner's verdict on the `Decided without asking` lines.
 
 **Sensitive-feature Definition of Done** — a feature that processes the journal, computes or writes insights, suggests actions or shows crisis resources only reaches anyone other than the maintainer when there is:
@@ -227,4 +231,4 @@ A divergence between `docs/` and code is never an acceptable state: it is resolv
 
 **Amendment** — via a dedicated PR, using `/speckit.constitution`, with `pnpm constitution:check` green and the owner's approval; when principles I or IV change, also the clinical owner's.
 
-**Version**: 1.0.0 | **Ratified**: 2026-10-12 | **Last Amended**: 2026-10-12
+**Version**: 1.1.0 | **Ratified**: 2026-10-12 | **Last Amended**: 2026-10-12
