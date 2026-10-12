@@ -24,7 +24,7 @@ This folder is both the source of the preset and its installed copy.
 | `commands/speckit.plan.md` | wrap | Only `plan.md`; Constitution Check answered PASS or FAIL |
 | `commands/speckit.tasks.md` | wrap | Reads spec and plan only; verbatim constraints come from the plan's Model section; tests mandatory |
 | `commands/speckit.analyze.md` | wrap | Writes the Analysis section of `tasks.md`; fixes at the source |
-| `commands/speckit.implement.md` | wrap | No checklists; RED → GREEN evidence; no automatic git operations |
+| `commands/speckit.implement.md` | wrap | No checklists; RED → GREEN → REFACTOR evidence; no automatic git operations |
 | `commands/speckit.converge.md` | wrap | Writes rounds in the Convergence section of `tasks.md` |
 | `commands/speckit.constitution.md` | wrap | Categorized questions; entry in `constitution-history.md` |
 | `commands/speckit.checklist.md` | replace | Disabled, with a pointer to specify, clarify and analyze |
