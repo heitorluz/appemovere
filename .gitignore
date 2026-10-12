@@ -27,3 +27,7 @@ node_modules/
 __pycache__/
 *.pyc
 .venv/
+
+# Spec Kit and agents: machine-local state
+.specify/extensions/.cache/
+.claude/settings.local.json

@@ -1,0 +1,61 @@
+{
+  "schema_version": "1.0",
+  "presets": {
+    "emovere": {
+      "version": "1.0.0",
+      "source": "local",
+      "manifest_hash": "sha256:e3d3c0db1da90009e22e0bf2972c20d0c8f4e563ede2da24e629a3df0364a669",
+      "enabled": true,
+      "priority": 10,
+      "registered_commands": {
+        "claude": [
+          "speckit.specify",
+          "speckit.clarify",
+          "speckit.plan",
+          "speckit.tasks",
+          "speckit.analyze",
+          "speckit.implement",
+          "speckit.converge",
+          "speckit.constitution",
+          "speckit.checklist"
+        ],
+        "codex": [
+          "speckit.specify",
+          "speckit.clarify",
+          "speckit.plan",
+          "speckit.tasks",
+          "speckit.analyze",
+          "speckit.implement",
+          "speckit.converge",
+          "speckit.constitution",
+          "speckit.checklist"
+        ]
+      },
+      "registered_skills": {
+        "claude": [
+          "speckit-specify",
+          "speckit-clarify",
+          "speckit-plan",
+          "speckit-tasks",
+          "speckit-analyze",
+          "speckit-implement",
+          "speckit-converge",
+          "speckit-constitution",
+          "speckit-checklist"
+        ],
+        "codex": [
+          "speckit-specify",
+          "speckit-clarify",
+          "speckit-plan",
+          "speckit-tasks",
+          "speckit-analyze",
+          "speckit-implement",
+          "speckit-converge",
+          "speckit-constitution",
+          "speckit-checklist"
+        ]
+      },
+      "installed_at": "2026-10-12T19:14:59.357565+00:00"
+    }
+  }
+}
