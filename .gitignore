@@ -24,6 +24,11 @@ Thumbs.db
 
 # Node and Python
 node_modules/
+dist/
+build/
+coverage/
+*.log
+*.tsbuildinfo
 __pycache__/
 *.pyc
 .venv/

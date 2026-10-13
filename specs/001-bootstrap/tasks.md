@@ -22,9 +22,9 @@ description: "Task list for the bootstrap feature (Emovere preset)"
 
 ## Phase 1: Setup
 
-- [ ] T001 Create the root `package.json` (private; `engines.node` `>=24 <25`; `packageManager` set to the installed pnpm 10.x), `.nvmrc` with `24` and `pnpm-workspace.yaml` listing `apps/*`, `packages/*` and `tooling` — D1, D2, FR-001
-- [ ] T002 [P] Create `tsconfig.base.json` with `strict: true` and the shared compiler options every package extends — FR-002, FR-003
-- [ ] T003 [P] Create `.editorconfig` (UTF-8, LF, 2-space indent, final newline) at the repository root — D5
+- [X] T001 Create the root `package.json` (private; `engines.node` `>=24 <25`; `packageManager` set to the installed pnpm 10.x), `.nvmrc` with `24` and `pnpm-workspace.yaml` listing `apps/*`, `packages/*` and `tooling` — D1, D2, FR-001
+- [X] T002 [P] Create `tsconfig.base.json` with `strict: true` and the shared compiler options every package extends — FR-002, FR-003
+- [X] T003 [P] Create `.editorconfig` (UTF-8, LF, 2-space indent, final newline) at the repository root — D5
 
 ## Phase 2: Foundational
 
@@ -342,3 +342,6 @@ Re-run after `/commit` was added (spec FR-035 and Clarifications; plan D17, D19 
 - T063 placed before T050 in US6 although its ID is the next free one — source: process — reason: `/commit` was added after the task list was numbered; keeping the existing IDs keeps the Analysis references valid.
 - T010–T013 extended for constitution 1.1.0 (layers, context boundaries, Clean Code limits) instead of adding new tasks — source: spec FR-010b and FR-012; plan D7 and D18 — reason: the same test and configuration files carry the new rules, and keeping the IDs keeps the Analysis run's references valid.
 - FR-025 and FR-026 are confirmed by a review task (T060), not by a script — source: process — reason: both are "keep as is" rules with no code to test.
+- `tsconfig.base.json` sets, besides `strict`, ES2022 target and lib, `module` ESNext with `moduleResolution` Bundler, `isolatedModules`, `noEmit` and `skipLibCheck`; `tooling` overrides module resolution for Node (T005) — source: process (shared configuration within the constitution's stack) — reason: `packages/domain` is consumed by the Expo bundler; no flag beyond `strict` was added, so no new development standard is set.
+- `.editorconfig` also trims trailing whitespace — source: process (`git diff --check` in `/commit`) — reason: keeps editors aligned with the check that already runs before every commit.
+- `.gitignore` gained `dist/`, `build/`, `coverage/`, `*.log` and `*.tsbuildinfo` — source: process (implement step 4, Node.js patterns) — reason: build and test output must not reach the public repository.
