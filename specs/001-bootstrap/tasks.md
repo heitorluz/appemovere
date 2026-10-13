@@ -30,12 +30,12 @@ description: "Task list for the bootstrap feature (Emovere preset)"
 
 **Blocks every user story.**
 
-- [ ] T004 [P] Create `packages/domain/package.json` (no runtime dependencies; scripts `typecheck`, `test`), `packages/domain/tsconfig.json` extending `tsconfig.base.json`, and an empty `packages/domain/src/index.ts` with no entity or rule — FR-003
-- [ ] T005 [P] Create the private `tooling` package: `tooling/package.json` (scripts `typecheck`, `test`), `tooling/tsconfig.json` with `erasableSyntaxOnly: true` and `tooling/fixtures/` excluded, and `tooling/vitest.config.ts` — D2, D4, plan Contract (Test fixtures)
-- [ ] T006 Create `apps/mobile` with `create-expo-app` (TypeScript template, current SDK), install Expo Router, delete every route and screen the template creates so that `apps/mobile/app/` has no route, and record the SDK version in `apps/mobile/package.json` — D3, FR-002
-- [ ] T007 Write the test for the findings formatter in `tooling/tests/findings.test.ts`: each finding prints as `<path>[:<line>] <rule> — <message>` — Contract
-- [ ] T008 Implement `tooling/lib/findings.ts` (formatter and exit code) and `tooling/lib/git.ts` (list staged files, list tracked files, repository root via `git rev-parse --show-toplevel`) — Contract
-- [ ] T009 Run `pnpm install` at the root and commit nothing; confirm the lockfile `pnpm-lock.yaml` is created — D1, SC-001
+- [X] T004 [P] Create `packages/domain/package.json` (no runtime dependencies; scripts `typecheck`, `test`), `packages/domain/tsconfig.json` extending `tsconfig.base.json`, and an empty `packages/domain/src/index.ts` with no entity or rule — FR-003
+- [X] T005 [P] Create the private `tooling` package: `tooling/package.json` (scripts `typecheck`, `test`), `tooling/tsconfig.json` with `erasableSyntaxOnly: true` and `tooling/fixtures/` excluded, and `tooling/vitest.config.ts` — D2, D4, plan Contract (Test fixtures)
+- [X] T006 Create `apps/mobile` with `create-expo-app` (TypeScript template, current SDK), install Expo Router, delete every route and screen the template creates so that `apps/mobile/app/` has no route, and record the SDK version in `apps/mobile/package.json` — D3, FR-002
+- [X] T007 Write the test for the findings formatter in `tooling/tests/findings.test.ts`: each finding prints as `<path>[:<line>] <rule> — <message>` — Contract
+- [X] T008 Implement `tooling/lib/findings.ts` (formatter and exit code) and `tooling/lib/git.ts` (list staged files, list tracked files, repository root via `git rev-parse --show-toplevel`) — Contract
+- [X] T009 Run `pnpm install` at the root and commit nothing; confirm the lockfile `pnpm-lock.yaml` is created — D1, SC-001
 
 ## Phase 3: User Story 1 — Every change passes the gates before it merges (P1)
 
@@ -345,3 +345,14 @@ Re-run after `/commit` was added (spec FR-035 and Clarifications; plan D17, D19 
 - `tsconfig.base.json` sets, besides `strict`, ES2022 target and lib, `module` ESNext with `moduleResolution` Bundler, `isolatedModules`, `noEmit` and `skipLibCheck`; `tooling` overrides module resolution for Node (T005) — source: process (shared configuration within the constitution's stack) — reason: `packages/domain` is consumed by the Expo bundler; no flag beyond `strict` was added, so no new development standard is set.
 - `.editorconfig` also trims trailing whitespace — source: process (`git diff --check` in `/commit`) — reason: keeps editors aligned with the check that already runs before every commit.
 - `.gitignore` gained `dist/`, `build/`, `coverage/`, `*.log` and `*.tsbuildinfo` — source: process (implement step 4, Node.js patterns) — reason: build and test output must not reach the public repository.
+- `create-expo-app` ran with `--template blank-typescript --no-install --no-agents-md`; Expo Router came from `expo install`, `main` is `expo-router/entry`, the template's `App.tsx` and `index.ts` were deleted and `apps/mobile/app/.gitkeep` keeps the route folder empty — source: plan D3; spec FR-002 and FR-030 — reason: the blank template brings no routes to undo, and `--no-agents-md` stops the template from writing an `AGENTS.md` and a `.claude/settings.json` outside the single source in `.ia/`.
+- The template's MIT `LICENSE` was deleted — source: docs/product/09-architecture.md ("No license file for now") — reason: the repository has no license until legal review.
+- `expo-status-bar` was removed from the template's dependencies — source: constitution, principle VII — reason: no screen uses it; `app-shell-and-help` adds it back if its screens need it.
+- Package names `@emovere/domain` and `@emovere/tooling`; the app keeps `mobile` — source: plan D11 (`pnpm --filter mobile`) — reason: a bare `domain` would shadow Node's built-in `domain` module.
+- TypeScript `~6.0.3` in every package, the version the Expo SDK 57 template pins; `@types/node` `^24` to match Node 24 — source: process (D1, D3) — reason: one compiler across the workspace, and Node types that match the pinned runtime.
+- `apps/mobile/tsconfig.json` extends `tsconfig.base.json` first and `expo/tsconfig.base` last — source: process (T002) — reason: Expo's module, JSX and lib settings win while the shared `strict` and `isolatedModules` still apply.
+- `packages/domain/src/index.ts` holds only `export {};` — source: process — reason: `isolatedModules` rejects an empty file; it adds no entity or rule (FR-003).
+- `tooling/tsconfig.json` uses `NodeNext` resolution with `allowImportingTsExtensions` — source: plan D4 — reason: Node runs the scripts natively, so imports name the `.ts` file.
+- `tooling/tests/git.test.ts` added beside T007, against a temporary repository — source: constitution, principle VI — reason: `lib/git.ts` is new code and every check relies on it; the test needs no real repository state.
+- `listStagedFiles` leaves out deleted files (`--diff-filter=ACMR`) and every helper takes an optional working folder — source: process (plan Contract) — reason: the checks read the content of staged files, and the tests run in a temporary repository.
+- The pnpm peer warnings for `react-native-worklets`, `react-dom` and `@react-native/metro-config` stay unresolved — source: process — reason: they come from optional transitive peers (`@expo/ui`, web); `expo-doctor` passes 21/21 and `expo install --check` reports the dependencies up to date.
