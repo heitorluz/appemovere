@@ -138,7 +138,7 @@ export default defineConfig(
     rules: restrictImports(aiLab),
   },
   {
-    files: [`${domainRoot}/**/*.ts`],
+    files: [`${domainRoot}/src/**/*.ts`],
     rules: { ...domainPurity, ...restrictImports(aiLab, impureLibraries, toAdapters) },
   },
   {

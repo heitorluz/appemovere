@@ -5,10 +5,11 @@
   "type": "module",
   "main": "src/index.ts",
   "scripts": {
-    "typecheck": "tsc --noEmit",
+    "typecheck": "tsc --noEmit && tsc --noEmit -p tests",
     "test": "vitest run"
   },
   "devDependencies": {
+    "@types/node": "^24.19.2",
     "typescript": "~6.0.3",
     "vitest": "^5.0.4"
   }

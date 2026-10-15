@@ -1,0 +1,3 @@
+# Maestro workspace (FR-005, plan D11). The first flows arrive with app-shell-and-help.
+flows:
+  - flows/*
