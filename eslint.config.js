@@ -35,6 +35,27 @@ const cleanCode = {
   'max-depth': ['error', { max: 3 }],
 };
 
+// No record content can reach a log (FR-021, plan D6): no console and no logging library.
+// The first spec that needs logs brings a logger with an allow-list of fields and adapts this.
+const noLogging = {
+  'no-console': 'error',
+  'no-restricted-imports': [
+    'error',
+    {
+      patterns: [
+        {
+          group: ['pino', 'pino/*', 'winston', 'winston/*', 'bunyan', 'loglevel', 'log4js'],
+          message: 'No logging in the app or the domain (FR-021).',
+        },
+        {
+          group: ['debug', 'consola', 'signale', 'react-native-logs', 'react-native-logs/*'],
+          message: 'No logging in the app or the domain (FR-021).',
+        },
+      ],
+    },
+  ],
+};
+
 export default defineConfig(
   { ignores: outOfScope },
   {
@@ -49,6 +70,10 @@ export default defineConfig(
   {
     files: testFiles.map((pattern) => `{packages/domain,apps/mobile}/${pattern}`),
     rules: { 'max-lines-per-function': 'off' },
+  },
+  {
+    files: ['{packages/domain,apps/mobile}/**/*.{js,mjs,cjs,ts,tsx}'],
+    rules: noLogging,
   },
   {
     files: ['**/tsconfig*.json'],
