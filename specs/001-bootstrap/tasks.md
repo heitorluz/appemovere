@@ -84,13 +84,13 @@ description: "Task list for the bootstrap feature (Emovere preset)"
 
 ### Tests (write first)
 
-- [ ] T027 [P] [US3] Write `packages/domain/tests/index.test.ts` (Vitest): the package entry loads and imports nothing outside the package — FR-004
-- [ ] T028 [P] [US3] Write `apps/mobile/__tests__/runner.test.tsx` (Jest + RNTL): renders a React Native `Text` defined inside the test, with no screen or route — FR-004, FR-002
+- [X] T027 [P] [US3] Write `packages/domain/tests/index.test.ts` (Vitest): the package entry loads and imports nothing outside the package — FR-004
+- [X] T028 [P] [US3] Write `apps/mobile/__tests__/runner.test.tsx` (Jest + RNTL): renders a React Native `Text` defined inside the test, with no screen or route — FR-004, FR-002
 
 ### Implementation
 
-- [ ] T029 [US3] Configure Vitest in `packages/domain/vitest.config.ts` and Jest with the `jest-expo` preset and React Native Testing Library in `apps/mobile/jest.config.js` — D8, FR-004
-- [ ] T030 [P] [US3] Create `apps/mobile/.maestro/config.yaml`, `apps/mobile/.maestro/flows/.gitkeep` and `apps/mobile/.maestro/README.md` (where flows go, how to install Maestro and run them; first flows in `app-shell-and-help`), and the script `e2e` in `apps/mobile/package.json` — D11, FR-005
+- [X] T029 [US3] Configure Vitest in `packages/domain/vitest.config.ts` and Jest with the `jest-expo` preset and React Native Testing Library in `apps/mobile/jest.config.js` — D8, FR-004
+- [X] T030 [P] [US3] Create `apps/mobile/.maestro/config.yaml`, `apps/mobile/.maestro/flows/.gitkeep` and `apps/mobile/.maestro/README.md` (where flows go, how to install Maestro and run them; first flows in `app-shell-and-help`), and the script `e2e` in `apps/mobile/package.json` — D11, FR-005
 
 **Checkpoint**: `pnpm test` runs the domain, mobile and tooling suites (SC-001).
 
@@ -368,3 +368,10 @@ Re-run after `/commit` was added (spec FR-035 and Clarifications; plan D17, D19 
 - `gates.yml` uses `actions/checkout@v7`, `pnpm/action-setup@v6` and `actions/setup-node@v7` by major tag, `permissions: contents: read`, a per-ref concurrency group, and lists the default `pull_request` types explicitly — source: process (D10) — reason: current majors, least privilege, and the YAML lint forbids an empty mapping value.
 - `tooling/tests/support/eslint.ts` holds the helper that lints text at a virtual path, shared by both US1 tests — source: process (REFACTOR) — reason: removes the duplicated helper.
 - `apps/mobile/app.json` and `tooling/tests/findings.test.ts` were reformatted by Prettier — source: process — reason: the new `format:check` gate covers them.
+- The mobile suite uses Jest 29 (the version `jest-expo` 57 runs on), `@types/jest` 29, React Native Testing Library 14 and its peer `test-renderer`; `apps/mobile/jest.config.js` stays CommonJS because the app package has no `"type"` — source: plan D8 — reason: the versions the SDK 57 preset supports.
+- TypeScript 6 includes no `@types` package by default, so `apps/mobile/tsconfig.json` declares `types: ["jest"]` — source: process — reason: the test globals need their types.
+- `packages/domain` typechecks `src/` with no ambient types and the tests with `tests/tsconfig.json`, which adds Node types; its `typecheck` script runs both, and `@types/node` is a dev dependency used by the tests only — source: spec FR-003 — reason: domain code never sees Node globals, while the test that inspects the source can read files.
+- `packages/domain/tsconfig.json` sets `allowImportingTsExtensions` — source: plan D7 (`application/index.ts`) — reason: imports name the `.ts` file, as the context-boundary rule expects.
+- The domain purity rules of `architecture:check` apply to `packages/domain/src/**`; layer and context rules were already scoped to `src/` — source: spec FR-003 (the domain's code) and principle V — reason: the T027 test uses Node to read the source it checks; the rules still bind every domain file.
+- The T027 test checks "imports nothing outside the package" by reading the import specifiers of every `src/` file — source: process — reason: it fails on any bare or escaping import, proved with a temporary `react` import; it passed on its first run because the entry already existed (bootstrap exempt from RED).
+- `pnpm --filter mobile e2e` runs `maestro test .maestro`, which reads `config.yaml`; Maestro is a system tool documented in `.maestro/README.md`, not an npm dependency — source: plan D11 — reason: the official install is a standalone CLI.
