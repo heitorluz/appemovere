@@ -1,0 +1,25 @@
+name: Proposal
+description: An idea for the app or for how the project is built.
+labels: [enhancement]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **Never paste real content.** No real entries, check-ins, journal text, notes, screenshots
+        of real use or exported files: use synthetic examples only (README, "Never commit real data").
+
+        ## If you are in crisis
+
+        Emovere is not an emergency service. In Brazil, call **CVV 188** (24 hours, free) or **SAMU 192**, or go to the nearest UPA or emergency room.
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposal
+      description: What should change and why. Synthetic data only.
+    validations:
+      required: true
+  - type: textarea
+    id: source
+    attributes:
+      label: Related documents
+      description: The docs/ section, ADR or spec this relates to, if any.

@@ -1,0 +1,25 @@
+name: Bug report
+description: Something in the app or in the repository does not work as described.
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **Never paste real content.** No real entries, check-ins, journal text, notes, screenshots
+        of real use or exported files: use synthetic examples only (README, "Never commit real data").
+
+        ## If you are in crisis
+
+        Emovere is not an emergency service. In Brazil, call **CVV 188** (24 hours, free) or **SAMU 192**, or go to the nearest UPA or emergency room.
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened
+      description: What you did, what you expected and what happened instead. Synthetic data only.
+    validations:
+      required: true
+  - type: textarea
+    id: where
+    attributes:
+      label: Where
+      description: Device, operating system and build (development or demo), when relevant.
