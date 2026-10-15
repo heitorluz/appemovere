@@ -1,0 +1,17 @@
+{
+  "blockedExtensions": [
+    ".db",
+    ".sqlite",
+    ".sqlite3",
+    ".realm",
+    ".enc",
+    ".emovere-export",
+    ".pem",
+    ".key",
+    "*.db-*",
+    "*.sqlite-*"
+  ],
+  "blockedNames": [".env", ".env.*", "!.env.example"],
+  "blockedFolders": ["exports/"],
+  "blockedHeaders": [{ "name": "SQLite", "bytes": "SQLite format 3\u0000" }]
+}

@@ -11,15 +11,20 @@
     "lint": "eslint .",
     "format:check": "prettier --check .",
     "test": "pnpm -r test",
-    "architecture:check": "eslint --config eslint.architecture.config.js ."
+    "architecture:check": "eslint --config eslint.architecture.config.js .",
+    "leaks:check": "node tooling/checks/leaks.ts",
+    "prepare": "husky"
   },
   "devDependencies": {
     "@eslint/js": "^10.0.1",
     "@eslint/json": "^2.1.1",
+    "@secretlint/secretlint-rule-preset-recommend": "^13.0.7",
     "eslint": "^10.12.0",
     "eslint-plugin-yml": "^3.9.0",
     "globals": "^17.13.0",
+    "husky": "^9.1.7",
     "prettier": "^3.9.10",
+    "secretlint": "^13.0.7",
     "typescript": "~6.0.3",
     "typescript-eslint": "^8.71.2"
   }

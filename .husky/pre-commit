@@ -1,0 +1,3 @@
+# Before each commit (FR-020): data files, secrets and the author email.
+pnpm leaks:check --staged
+node tooling/checks/author.ts
