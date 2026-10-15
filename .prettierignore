@@ -1,0 +1,9 @@
+# Outside the format scope (FR-010a): prose, Spec Kit output and test fixtures.
+*.md
+docs/
+specs/
+.specify/
+.claude/skills/speckit-*/
+.agents/skills/speckit-*/
+tooling/fixtures/
+pnpm-lock.yaml

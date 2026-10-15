@@ -11,9 +11,7 @@ describe('formatFinding', () => {
       message: 'forbidden term "sample"',
     });
 
-    expect(line).toBe(
-      'apps/mobile/app/index.tsx:12 terms/forbidden — forbidden term "sample"',
-    );
+    expect(line).toBe('apps/mobile/app/index.tsx:12 terms/forbidden — forbidden term "sample"');
   });
 
   it('omits the line when the finding has none', () => {
