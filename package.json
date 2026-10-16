@@ -13,6 +13,7 @@
     "test": "pnpm -r test",
     "architecture:check": "eslint --config eslint.architecture.config.js .",
     "leaks:check": "node tooling/checks/leaks.ts",
+    "terms:check": "node tooling/checks/terms.ts",
     "prepare": "husky"
   },
   "devDependencies": {

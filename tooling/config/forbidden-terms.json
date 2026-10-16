@@ -1,0 +1,86 @@
+{
+  "contentGlobs": ["apps/mobile/src/locales/**/*.json", "packages/content/**/*.{json,md}"],
+  "groups": [
+    {
+      "id": "sp-04",
+      "status": "approved",
+      "terms": [
+        {
+          "text": "piorou",
+          "source": "docs/product/07-clinical-safety.md#acceptance-criteria-sp"
+        },
+        {
+          "text": "falhou",
+          "source": "docs/product/07-clinical-safety.md#acceptance-criteria-sp"
+        },
+        {
+          "text": "meta não atingida",
+          "source": "docs/product/07-clinical-safety.md#acceptance-criteria-sp"
+        },
+        {
+          "text": "você deve",
+          "source": "docs/product/07-clinical-safety.md#acceptance-criteria-sp"
+        },
+        {
+          "text": "eu",
+          "source": "docs/product/07-clinical-safety.md#acceptance-criteria-sp"
+        },
+        {
+          "text": "percebi",
+          "source": "docs/product/07-clinical-safety.md#acceptance-criteria-sp"
+        },
+        {
+          "text": "estou preocupado",
+          "source": "docs/product/07-clinical-safety.md#acceptance-criteria-sp"
+        }
+      ]
+    },
+    {
+      "id": "language-table",
+      "status": "approved",
+      "terms": [
+        {
+          "text": "auxilia o seu tratamento",
+          "source": "docs/product/02-language.md#controlled-language"
+        },
+        {
+          "text": "acompanha os seus sintomas",
+          "source": "docs/product/02-language.md#controlled-language"
+        },
+        {
+          "text": "exercícios para a sua ansiedade",
+          "source": "docs/product/02-language.md#controlled-language"
+        },
+        {
+          "text": "isso causa",
+          "source": "docs/product/02-language.md#controlled-language"
+        },
+        {
+          "text": "isso vai resolver",
+          "source": "docs/product/02-language.md#controlled-language"
+        },
+        {
+          "text": "percebi que você",
+          "source": "docs/product/02-language.md#controlled-language"
+        },
+        {
+          "text": "estou preocupado com você",
+          "source": "docs/product/02-language.md#controlled-language"
+        },
+        {
+          "text": "dias seguidos",
+          "source": "docs/product/02-language.md#controlled-language"
+        },
+        {
+          "text": "dia improdutivo",
+          "source": "docs/product/02-language.md#controlled-language"
+        }
+      ]
+    },
+    {
+      "id": "sp-04-diagnosis",
+      "status": "clinical-draft",
+      "terms": []
+    }
+  ]
+}
